@@ -1,0 +1,469 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201804 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.saroman.ru.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1990                
+POS_TIME 2648                
+POS_VISITOR 9816                
+POS_DAY 12387               
+POS_DOMAIN 3362                
+POS_LOGIN 3593                
+POS_ROBOT 3748                
+POS_WORMS 4254                
+POS_EMAILSENDER 4385                
+POS_EMAILRECEIVER 4528                
+POS_SESSION 13055               
+POS_SIDER 13221               
+POS_FILETYPES 4663                
+POS_DOWNLOADS 4853                
+POS_OS 4901                
+POS_BROWSER 5021                
+POS_SCREENSIZE 5832                
+POS_UNKNOWNREFERER 5906                
+POS_UNKNOWNREFERERBROWSER 6116                
+POS_ORIGIN 6232                
+POS_SEREFERRALS 6368                
+POS_PAGEREFS 6523                
+POS_SEARCHWORDS 6731                
+POS_KEYWORDS 6883                
+POS_MISC 2312                
+POS_ERRORS 6942                
+POS_CLUSTER 3449                
+POS_SIDER_404 7043                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20180501031415 1 0 9412953730591
+FirstTime 0
+LastTime 20180430145704
+LastUpdate 20180501040233 1 0 0 0 0
+TotalVisits 109                 
+TotalUnique 60                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 68                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 4 4 8296 14 23 97326
+1 9 9 37258 19 23 95150
+2 5 5 10370 8 15 85503
+3 4 4 8296 21 28 84836
+4 5 5 10370 5 23 235117
+5 3 3 6222 8 16 91201
+6 5 5 10370 9 13 32520
+7 3 3 6222 4 8 16472
+8 3 3 6222 8 13 40195
+9 11 11 22814 2 10 50454
+10 8 8 16592 5 8 30134
+11 3 4 33695 4 11 95647
+12 6 6 12444 1 1 0
+13 9 9 27962 1 5 35881
+14 13 13 45554 19 28 97168
+15 10 10 37258 10 20 78102
+16 6 6 21740 10 26 125519
+17 10 10 37258 7 11 48177
+18 6 35 494779 12 29 147777
+19 14 27 2478817 4 11 33641
+20 10 23 2461225 7 14 44538
+21 10 23 2517217 15 23 92651
+22 5 5 10370 5 7 35492
+23 6 20 2444228 3 6 16414
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 168 251 10765579
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 10
+mail\.ru 35 444884 20180415130332 0
+baiduspider 33 238992 20180430224413 0
+no_user_agent 26 53924 20180428141305 0
+bot[\s_+:,\.\;\/\\-] 19 42786 20180430161901 0
+googlebot 17 151184 20180422064027 0
+crawl 14 120927 20180422120724 0
+mj12bot 9 27962 20180429055350 0
+[\s_+:,\.\;\/\\-]bot 2 13444 20180406004603 0
+python 1 2074 20180426132050 0
+robot 1 11370 20180408223334 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+css 9 49141 0 0
+png 59 2459611 0 0
+ttf 8 1280976 0 0
+html 159 465058 0 0
+jpg 4 6221212 0 0
+js 11 250797 0 0
+woff2 1 38784 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 8
+winxp 45
+winnt 10
+linuxubuntu 1
+linux 42
+winvista 10
+win7 60
+macosx 75
+Unknown 8
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 46
+firefox57.0 17
+msie6.0 3
+chrome41815 1
+chrome63553 1
+firefox33.1 1
+firefox4.0 5
+firefox54.0 1
+chrome56.0.2924.87 1
+firefox34.0 1
+curl 1
+firefox49.0 2
+chrome12.0.742.112 1
+firefox24.0 1
+chrome58.0.3029.110 7
+chrome32392 1
+chrome61.0.3163.100 13
+chrome34.0.1847.132 19
+firefox59.0 4
+safari9.1.1 16
+chrome37.0.2062.120 1
+firefox23.0 1
+chrome10.0.648.204 2
+chrome40.0.2214.85 1
+chrome58.0.3029.96 1
+chrome62.0.3202.89 1
+Unknown 1
+netscape 6
+chrome65.0.3325.181 33
+chrome55.0.2883.87 1
+firefox32.1 2
+firefox17.0 9
+firefox55.0 1
+chrome63.0.3239.132 1
+safari10.0.3 1
+firefox58.0 1
+chrome62.0.3202.94 2
+firefox38.0 1
+firefox45.0 2
+mozilla 68
+firefox37.0 8
+chrome26.0.1410.63 1
+chrome41.0.2228.0 2
+chrome60.0.3112.90 5
+firefox35.0 1
+chrome59.0.3071.104 1
+chrome65661 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+Mozilla 20180424173637
+Go-http-client/1.1 20180423090607
+GuzzleHttp/6.1.0_curl/7.35.0_PHP/5.5.9-1ubuntu4.14 20180421144604
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Go-http-client/1.1 20180423090607
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 141 155
+From1 5 5
+From2 2 4
+From3 2 2
+From4 18 85
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 2 4
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+https://yandex.ua/search/ 1 1
+http://burger-imperia.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+403 2 5824
+404 208 596544
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 66
+/sitemap.xml 1 -
+/ 2 http://forum.saroman.ru/
+/robots.txt 76 -
+/user 1 -
+/admin.php 6 http://saroman.ru/admin.php
+/feed/ 3 -
+/sitemap/ 1 -
+/admin/login.php 3 http://saroman.ru/admin/login.php
+/logo_img.php 1 -
+/user/login 1 http://SAROMAN.RU/user/login
+/administrator.php 3 http://saroman.ru/administrator.php
+/rss.xml 1 -
+/wp-admin/ 1 https://www.google.com/
+/admin/index.php 1 -
+/.DS_Store 2 -
+/comments/feed/ 1 -
+/.git/config 2 -
+/sftp_config.json 2 -
+/.svn/wc.db 2 -
+/mailto:roman%40saroman.ru 4 http://saroman.ru/mailto:roman%40saroman.ru
+/wp-content/plugins/delete-all-comments/backup/index.php 1 -
+/adminzone 3 http://saroman.ru/adminzone
+/typo3/index.php 1 -
+/mscms/ 3 http://saroman.ru/mscms/
+/wp-includes/js/jquery/jquery.js 2 http://saroman.ru/2018/02/
+/user/register 1 -
+/wp-content/themes/twentyseventeen/assets/js/global.js 2 http://saroman.ru/2018/02/
+/wp-content/themes/twentyseventeen/assets/js/jquery.scrollTo.js 2 http://saroman.ru/2018/02/
+/administrator 3 http://saroman.ru/administrator
+/a 2 -
+/wp-content/themes/twentyseventeen/assets/js/skip-link-focus-fix.js 2 http://saroman.ru/2018/02/
+/.ssh/id_rsa 2 -
+/.ssh/id_ecdsa 2 -
+/.ssh/id_dsa 2 -
+/manager 3 http://saroman.ru/manager
+/wp-login.php 6 http://saroman.ru/wp-login.php
+/wp-includes/js/wp-embed.min.js 2 http://saroman.ru/2018/02/
+/404.php 1 -
+/wp-content/themes/twentyseventeen/style.css 2 http://saroman.ru/2018/02/
+/wp-content/uploads/assignments/ch.php. 1 -
+/netcat/ 3 http://saroman.ru/netcat/
+/.ssh/id_ed25519 2 -
+/user/password 1 -
+/wp-admin/admin-ajax.php 1 -
+/weather//fonts/Ubuntu-R.ttf 1 http://saroman.ru/weather/css/main.css
+/update.php 1 -
+/wp-content/plugins/wysija-newsletters/readme.txt 1 -
+/js/mage/cookies.js 1 saroman.ru
+/cms/admin/ 3 http://saroman.ru/cms/admin/
+/users/sign_in 3 http://saroman.ru/users/sign_in
+/wp-includes/js/wp-emoji-release.min.js 2 http://saroman.ru/2018/02/
+/ckupload/ckupload.php 1 -
+/wp-content/plugins/delete-all-comments/delete-all-comments.php 1 -
+/.hg/hgrc 2 -
+/administrator/index.php 4 -
+/wp-includes/js/jquery/jquery-migrate.min.js 2 http://saroman.ru/2018/02/
+/smiley/1.gif 1 -
+/weather/js/jquery.min.js 5 http://saroman.ru/weather/js/jquery.min.js
+/ckupload.php 1 -
+/admin 3 http://saroman.ru/admin
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/bitrix/admin/ 1 http://SAROMAN.RU/bitrix/admin/
+/cms/ 3 http://saroman.ru/cms/
+/.idea/WebServers.xml 2 -
+/index.php 3 http://saroman.ru/index.php
+/jm-ajax/upload_file/ 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 68
+185.72.225.38 36 36 186216 20180412203753
+193.169.52.39 19 19 39406 20180430092432
+54.67.59.131 11 11 22814 20180430131953
+37.143.15.220 9 9 18666 20180429195905
+62.109.18.83 8 8 16592 20180429211203
+88.85.95.125 5 5 10370 20180425083006
+35.226.249.2 4 17 2439485 20180420192405
+104.192.74.18 4 4 26888 20180403011512
+176.98.69.217 4 4 8296 20180430145704
+163.172.4.153 3 3 6222 20180429072334
+40.77.179.42 0 1 5602 
+40.77.178.28 0 1 63679 
+109.191.28.175 1 1 2074 20180422132221
+176.116.27.24 1 1 2074 20180419140124
+2.95.222.28 1 1 2074 20180425142045
+158.46.167.17 1 1 2074 20180413154828
+40.77.179.95 0 2 22139 
+109.191.13.57 1 1 2074 20180403040902
+52.87.86.158 1 1 2074 20180412150033
+5.133.11.87 1 1 2074 20180422104951
+176.99.72.79 2 2 4148 20180429131946
+207.244.70.35 1 1 2074 20180430020235
+95.181.179.221 1 1 2074 20180406013012
+176.116.9.126 1 1 2074 20180428164825
+184.174.118.29 1 1 2074 20180407194323
+40.77.178.169 1 3 353273 20180410210308
+14.141.107.206 2 2 4148 20180424173637
+40.77.178.247 0 3 1585326 
+138.201.255.45 3 3 6222 20180428022712
+34.212.182.157 1 1 2074 20180406224637
+46.161.56.109 1 1 2074 20180421144604
+95.37.8.28 2 2 4148 20180416040952
+69.12.66.213 1 1 2074 20180420040327
+179.209.39.46 2 31 477187 20180424180433
+188.133.219.254 3 17 2438006 20180415235219
+64.246.165.170 1 1 2074 20180428035922
+178.62.4.246 2 2 4148 20180412032448
+95.211.188.3 1 1 2074 20180428223307
+46.191.255.105 1 1 2074 20180403210727
+64.246.165.180 1 1 2074 20180410005436
+40.77.178.122 0 1 378921 
+109.184.14.158 2 2 4148 20180415010443
+67.215.191.154 1 1 2074 20180407182257
+209.95.165.175 1 1 2074 20180415004339
+185.94.172.69 1 1 2074 20180423122046
+91.144.20.92 1 1 0 20180426154505
+40.77.178.59 1 1 65848 20180410210307
+163.53.210.67 0 1 27473 
+185.156.177.38 1 1 2074 20180409195009
+213.251.184.63 1 1 2074 20180416003705
+108.61.177.23 1 1 2074 20180415024649
+185.158.115.13 1 1 2074 20180428052200
+88.99.203.210 1 1 2074 20180426160228
+208.94.228.196 1 1 2074 20180417111853
+5.45.75.6 1 1 2074 20180425114240
+40.77.177.40 0 1 23274 
+51.15.80.69 2 2 4148 20180414060819
+172.105.215.38 1 1 2074 20180418063329
+199.30.24.119 2 15 2435337 20180423203346
+14.142.64.3 2 2 4148 20180417035921
+91.185.201.69 1 1 2074 20180427024508
+45.76.45.60 2 2 4148 20180414211945
+62.210.152.248 2 2 2074 20180417050512
+51.15.52.58 1 1 2074 20180423090607
+40.77.177.165 0 2 2563 
+193.106.30.99 1 1 2074 20180410080210
+195.154.184.40 1 1 2074 20180411161358
+67.215.191.166 1 1 2074 20180404074104
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 29
+20180401 1 1 2074 1
+20180402 2 2 4148 2
+20180403 8 9 62657 5
+20180404 4 4 8296 4
+20180405 1 1 2074 1
+20180406 4 4 8296 4
+20180407 4 4 8296 4
+20180409 3 3 6222 3
+20180410 5 18 2506847 5
+20180411 3 3 4148 3
+20180412 38 38 190364 3
+20180413 2 2 4148 2
+20180414 6 6 12444 4
+20180415 8 22 2448376 5
+20180416 5 5 10370 4
+20180417 6 6 12444 5
+20180418 2 2 4148 2
+20180419 4 4 8296 4
+20180420 9 22 2449855 6
+20180421 2 2 4148 2
+20180422 4 4 8296 4
+20180423 7 20 2445707 6
+20180424 5 34 483409 3
+20180425 4 4 8296 4
+20180426 5 5 8296 5
+20180427 3 3 6222 3
+20180428 7 7 14518 6
+20180429 12 12 24888 5
+20180430 4 4 8296 4
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 3
+1h+ 1
+15mn-30mn 1
+0s-30s 107
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 5
+/ 144 294508 105 102
+/weather/ 15 170550 1 1
+/fonts/lucida-sans-unicode.ttf 4 1017584 1 4
+/fonts/Trajan%20Pro%20Bold.ttf 4 263392 2 1
+/weather/fontawesome-free-5.0.6/web-fonts-with-css/webfonts/fa-solid-900.woff2 1 38784 0 1
+END_SIDER

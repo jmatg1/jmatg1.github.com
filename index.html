@@ -1,1 +1,51 @@
-Hello, World!
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Roman Sapetin - Front-end developer</title>
+	<meta name="description" content=" Роман Сапетин (Roman Sapetin) фронт енд разработчик, верстальщик">
+	<meta name="keywords" content="Front-end, HTML5, CSS3, JavaScript, PSD"> 
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="shortcut icon" href="img/favicon.png" type="image/png">
+</head>
+<body>
+	<img  class="light" src="img/light.png" alt="light">
+	<div class="frame">
+		<img  class="bulb" src="img/bulb.png" alt="Bulb">
+		<div class="title"><span>SaRoman</span></div>
+		<section class="page">
+			<div  class= "tab-panel active" id="im">
+				<h1>Кто я</h1>
+				<div>
+				Здравствуйте! Меня зовут Роман и я начинающий веб-разработчик. На момент 2018 года углубленно изучаю JS, bootstrap 4, SEO, CMS WordPress, OpenCart, Elgg, DLE. Из работ - Landing page на bootstrap 3
+				</div>
+			</div>
+
+
+			<div  class= "tab-panel" id="jobs">
+				<div class="title-work"><h1>Работы</h1></div>
+				<div>
+				<a href="/weather/index.html" title="Fun Weather"><img src="weather/img/phone.png" height="100px" width="50px" alt="Fun Weather"></a>
+				</div>
+			</div>
+
+			<div  class= "tab-panel" id="contacts">
+				<h1>Контакты</h1>
+				<div class="mail"><a href="mailto:roman@saroman.ru"><img src="img/mail.png" width=" 75%" height="75% alt="mail"></a>
+			</div></div>
+
+			<img class="text-end" src="img/text-end.png" alt="">
+			<img class="shadow" src="img/shadow.png" alt="Shadow">
+		</section>
+		<ul class="tab-list">
+			<li class="active"><a class="tab-control" href="#im">Обо мне</a></li>
+			<li><a class="tab-control" href="#jobs" >Работы</a></li>
+			<li><a class="tab-control" href="#contacts" >Контакты</a></li>
+		</ul>
+	</div>	
+	<script src="js/jquery-1.11.0.min.js"></script>
+	<script src="js/tabs.js"></script>
+
+</body>
+</html>
+

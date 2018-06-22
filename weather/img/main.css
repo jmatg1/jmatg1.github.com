@@ -1,0 +1,667 @@
+@font-face {
+    font-family:  Ubuntu; /* Имя шрифта */
+    src: url(..//fonts/Ubuntu-R.ttf); /* Путь к файлу со шрифтом */
+   }
+body {
+	 font-family: "Ubuntu";
+/*  background: linear-gradient( 90deg,
+    white 50%, 
+    transparent 33%);
+  background-size: 50px;
+  background-color: rgb(237, 237, 246);
+}*/
+
+	background-image: url(../img/lines.png);
+
+  }
+/*  .container {
+    width:1200px !important; 
+}*/
+/*.container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}*/
+
+h3 {
+	font-size: 36px;
+	color: #648cff;
+	font-weight: bold;
+	text-transform: uppercase;
+
+}
+
+
+
+/*Убираем подчеркивание ссылок*/ 
+/*a:hover { 
+    text-decoration: none;  Отменяем подчеркивание у ссылок 
+   } */
+header {
+	background-color: #648CFF;
+	line-height: 3em;
+}
+.row {
+margin: auto;
+
+}
+.Features {
+  font-size: 18px;
+  font-family: "Ubuntu";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+header ul li a, footer ul li a {
+	color: #E1E1E1;
+}
+
+.HedMenu, .menu-footer {
+	padding-right: 50px;
+  font-size: 18px;
+  font-family: "Ubuntu";
+  color: #fff;
+  word-spacing: 4em;
+
+}
+
+header ul a:hover, footer ul a:hover {
+	color:#fff;
+	text-decoration: none; /* Отменяем подчеркивание у ссылок */
+}
+
+
+
+header li, footer li {
+	display: inline; /* Отображать как строчный элемент */
+	word-spacing: 0px;
+}
+
+.SocLink a, .SocLink-footer a{
+	padding-left: 27px;
+
+}
+/*
+===============================
+Первая секция . телефон
+===============================
+*/
+
+.FirstScreen {
+	font-family: "Ubuntu";
+	color:#fff;
+	z-index: 2;
+	background-color: #648CFF;
+	background-image: url("..//img/wave.png");
+	background-repeat: no-repeat;
+	background-position:bottom;
+	/*background-position-y: 100px;*/
+	 background-origin: content-box;
+	 height: 800px
+/*	 -moz-border-radius: 1000px / 50px;
+	-webkit-border-radius: 1000px / 50px;
+	border-radius:  13em/13em 13em/13em;*/
+
+}
+.wave	 {
+	background-image: url("..//img/bg.jpg");
+	background-repeat: no-repeat;
+	background-position:bottom;
+	position: 
+	z-index: 3;
+	/*background-position-y: 100px;*/
+	 background-origin: content-box;
+	 height: 10%;
+}
+
+.description {
+	margin-top:150px;
+  font-size: 60px;
+  font-family: "Ubuntu";
+  font-weight: bold;
+  line-height: 1.2;
+
+}
+.DescDown {
+	padding-top: 18px;
+	font-size: 18px;
+	width: 390px;
+	color:#fff;
+}
+/*Две кнопки*/
+.FirstButton {
+	margin-top: 40px;
+}
+
+.FirstButton a {
+	font-size: 18px;
+	font-weight: bold;
+	color:#fff;
+}
+
+.download{
+	float:left;
+	border-radius: 5px;
+	background-color: rgb(252, 106, 66);
+	width: 150px;
+	height: 50px;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.download:hover {
+      box-shadow: 0px 5px 14px -5px #000000;
+   }
+
+.ButFeat{
+	float:left;
+	border-radius: 5px;
+	background-color:rgb(68, 102, 201);
+	width: 150px;
+	height: 50px;
+	text-align: center;
+	padding-top: 10px;
+	margin-left: 12px;
+}
+
+.ButFeat:hover {
+    box-shadow: 0px 5px 14px -5px #000000;/* Параметры тени */
+   }
+
+/*
+===============================
+Кружки
+===============================
+*/
+.london {
+	position: absolute;
+	margin: 250px 0 0 325px;
+	border-radius: 50%;
+	background-color: rgb(68, 102, 201);
+	z-index:2;
+	float: right;
+	width: 90px;
+	height: 90px;
+}
+
+.sunny{
+	position: absolute;
+	margin: 295px 0 0 -125px;
+	border-radius: 50%;
+	background-color: rgb(252, 106, 66);
+	float: left;
+	width: 90px;
+	height: 90px;
+
+}
+
+.london div, .sunny div {
+	color: #fff;
+	margin-top: 30px;
+	font-size: 16px;
+  	font-weight: bold;
+  	text-align: center;
+}
+
+.rio {
+	position: absolute;
+	float:right;
+	margin: 570px 0 0 330px;
+	border-radius: 50%;
+	background-color: rgb(252, 236, 100);
+	width: 56px;
+	height: 56px;
+
+}
+.nine {
+	font-size: 20px;
+	color:#6CA3FF;
+	position: absolute;
+	float: right;
+	margin: 80px 0 0 330px;
+	border-radius: 50%;
+	background-color: rgb(255, 255, 255);
+	width: 59px;
+	height: 58px;
+}
+
+.nine div {
+	margin-top: 15px;
+	margin-left: 5px;
+	font-size: 20px;
+  	font-weight: bold;
+  	text-align: center;
+}
+
+.rio div  {
+	color:#6CA3FF;
+	margin-top: 15px;
+	font-size: 18px;
+  	font-weight: bold;
+  	text-align: center;
+}
+
+
+/*
+===============================
+..//Кружки
+===============================
+*/
+
+/*ТЕЛЕФОН*/
+.phone {
+	margin: 18px 70px 0 70px;
+}
+/*Стрелка вниз*/
+.circle {
+	
+	font-size: 20px;
+	color:#fff;
+	margin: 20px auto;
+	border-radius: 50%;
+	background-color: rgb(255, 255, 255);
+	width: 60px;
+	height: 60px;
+}
+.fa-angle-down{
+	z-index: 1;
+	margin: 20px 0 0 23px;
+	color:#FC6A42;
+
+}
+/*
+===============================
+..//Первая секция . телефон
+===============================
+*/
+/*
+===============================
+Вторая секция. Perfect Features
+===============================
+*/
+.title-section {
+	margin-top: 15%;
+}
+.title-section span {
+	color: #999999;
+	font-size: 18px;
+}
+
+.usab span {
+	color:#353854;
+	font-size:24px;
+
+}
+
+.descr {
+	color: #aeaeae;
+	margin-top:10px;
+	font-size: 15px;
+}
+.feat-logos {
+	margin-top: 5px;
+}
+
+.colors {
+	margin-top: 130PX;
+}
+/*
+===============================
+..//Вторая секция. Perfect Features
+===============================
+*/
+/*
+===============================
+..//Третья секция. Simple Widgets
+===============================
+*/
+.widgets-img {
+	margin: 250px 0 0 29%;
+
+
+}
+/*
+===============================
+..//Третья секция. Simple Widgets
+===============================
+*/
+/*
+===============================
+..//SCREENHOTS
+===============================
+*/
+.clouds-descr h3, .sunny-descr h3 {
+	margin: 25px 0;
+}
+.phone-coudy {
+	position: absolute;
+	float: left;
+	margin-top: 180px;
+}
+.clouds-descr {
+	margin-top: 350px;
+}
+.clouds-descr span, .sunny-descr span {
+	font-size: 24px;
+	color: #353854;
+}
+.ciecle15 {
+	z-index: 2;
+  border-radius: 50%;
+  background-color: #6CA3FF;
+  position: absolute;
+  float:left;
+  width: 92px;
+  height: 92px;
+  margin: 590px 0 0 30px; 
+
+}
+.ciecle15 div, .ciecle9 div, .ciecle35 div {
+	color: #fff;
+	margin-top: 22px;
+	margin-left:4px;
+	font-size: 30px;
+  	font-weight: bold;
+  	text-align: center;
+}
+.Cloudy-text {
+	margin: 431px 0 0 241px;
+  font-size: 40px;
+  font-family: "Ubuntu";
+  color: rgba(237, 237, 242, 0.588);
+  line-height: 3.472;
+  text-align: left;
+  -moz-transform: matrix( 0,5.34835300729806,-5.34835300729811,0,0,0);
+  -webkit-transform: matrix( 0,5.34835300729806,-5.34835300729811,0,0,0);
+  -ms-transform: matrix( 0,5.34835300729806,-5.34835300729811,0,0,0);
+  position: absolute;
+	z-index: 0;
+}
+
+.ciecle-yellow {
+	margin: 372px 0 0 240px;
+  border-radius: 50%;
+  background-color:#FCEC64;
+  position: absolute;
+  width: 92px;
+  height: 92px;
+  z-index: 2;
+}
+.ciecle-yellow div, .ciecle-sunny div {
+
+		color: #fff;
+	margin-top: 32px;
+	margin-left:2px;
+	font-size: 18px;
+  	font-weight: bold;
+  	text-align: center;
+}
+
+/*raidy*/
+
+.rainy-text {
+	margin: 440px 0 0 278px;
+  font-size: 40px;
+  color: rgba(237, 237, 242, 0.588);
+  line-height: 3.472;
+  text-align: left;
+  -moz-transform: matrix( 0,5.34835300729806,-5.34835300729811,0,0,0);
+  -webkit-transform: matrix( 0,5.34835300729806,-5.34835300729811,0,0,0);
+  -ms-transform: matrix( 0,5.34835300729806,-5.34835300729811,0,0,0);
+  position: absolute;
+	z-index: 0;
+}
+
+.ciecle-rainy {
+	margin: 372px 0 0 240px;
+  border-radius: 50%;
+  background-color:#B5F6EB;
+  position: absolute;
+  width: 92px;
+  height: 92px;
+  z-index: 2;
+}
+.ciecle-rainy div {
+	color: #7e8c91;
+	margin-top: 32px;
+	margin-left:2px;
+	font-size: 18px;
+  	font-weight: bold;
+  	text-align: center;
+}
+
+.ciecle9 {
+  z-index: 2;
+  border-radius: 50%;
+  background-color: #7693C8;
+  position: absolute;
+  float:left;
+  width: 92px;
+  height: 92px;
+  margin: 590px 0 0 30px; 
+}
+
+/*SUNNY*/
+.sunny-circle {
+margin-top: 155px;
+  border-radius: 50%;
+  border: 3px solid #7693C8;
+  position: absolute;
+  width: 62px;
+  height: 62px;
+}
+.phone-sunny {
+	position: absolute;
+	z-index: 1;
+	float: right;
+}
+
+.sunny-text {
+	margin: 223px 0 0 -138px;
+  font-size: 40px;
+  font-family: "Ubuntu";
+  color: rgba(237, 237, 242, 0.588);
+  -moz-transform: matrix( 0,5.34835300729806,-5.34835300729811,0,0,0);
+  -webkit-transform: matrix( 0,5.34835300729806,-5.34835300729811,0,0,0);
+  -ms-transform: matrix( 0,5.34835300729806,-5.34835300729811,0,0,0);
+  position: absolute;
+	z-index: 0;
+}
+.sunny-descr {
+	margin-top: 250px;
+}
+
+.ciecle35 {
+	z-index: 2;
+  border-radius: 50%;
+  background-color: #FC6A42;
+  position: absolute;
+  width: 92px;
+  height: 92px;
+  margin: 375px 0 0 125px;
+
+}
+.ciecle-sunny {
+ margin: 125px 0 0 255px;
+  border-radius: 50%;
+  background-color:#F2A14E;
+  position: absolute;
+  width: 92px;
+  height: 92px;
+  z-index: 2;
+}
+.margin-top-150{
+	margin-top: 150px;
+
+}
+/*
+===============================
+..//SCREENSHOTS
+===============================
+*/
+
+
+.blockquote1 {
+	margin-left:  0px !important ;
+
+	color:#353854;
+	font-size: 21px;
+/*	position: relative;*/
+	float: top;
+}
+.blockquote1 footer {
+	font-size: 18px;
+}
+.open {
+  font-size: 128px;
+  font-family: "Ubuntu";
+  color: rgb(100, 140, 255);
+	position:absolute;
+/*	float: top;*/
+ 	margin: -80px 0px 0px -5px ;
+/* 		border: 1px solid red*/
+}
+
+.close1 {
+  font-size: 128px;
+  font-family: "Ubuntu";
+  color: rgb(100, 140, 255);
+     -moz-transform: rotate(180deg); /* Для Firefox */
+    -ms-transform: rotate(180deg); /* Для IE */
+    -webkit-transform: rotate(180deg); /* Для Safari, Chrome, iOS */
+    -o-transform: rotate(180deg); /* Для Opera */
+    transform: rotate(180deg);
+	position:absolute;
+	margin: -100px 0 0px 85%;
+}
+
+@media (max-width:767px ) {
+	/*Запрос на закрывающиюся ковычку*/
+	.close1 {
+		margin: -100px 0 0px 150px;
+	}
+	/*Положении карусели*/
+	.widgets-img {
+		margin: 25% 0 0 0px;
+		height: 400px;
+	}
+	/*название сайта*/
+	.Features {
+		text-align: center !important;
+	}
+	.SocLink {
+		text-align: center !important;
+	}
+}
+
+@media (min-width:360px ) {
+
+	/*Положении карусели*/
+	.widgets-img {
+		margin: 0 0 0 -67px !important;
+		height: 560px;
+	}
+
+	.Features {
+		text-align: center !important;
+	}
+	.SocLink {
+		text-align: center !important;
+	}
+}
+
+
+.margin-top{
+	margin-top: 120px;
+}
+
+/*Почти низ*/
+#down {
+	background-color: #648CFF;
+	z-index: 0;
+	height: 450px;
+	background-image: url(../img/lines.png);
+}
+.lines {
+  background-color: rgb(237, 237, 246);
+  position: absolute;
+  left: -701px;
+  top: -3336px;
+  width: 1576px;
+  height: 7221px;
+  z-index: 3;
+}
+
+#down .row {
+	margin-top: 150px;
+	
+}
+.how-down{
+	margin-top: 150px;
+}
+.how-down footer {
+	font-size: 36px;
+	color: #fff;
+	margin-bottom: 40px;
+}
+.how-down div {
+	width: 335px;
+	color: #fff;
+}
+.how-down img {
+	margin-right: 5px;
+	margin-top: 10px;
+
+}
+.phone-3 {
+	margin: 50px 0 0 0;
+	position: absolute;
+	z-index: 0;
+}
+.footer	{
+	z-index: 2;
+	background-color: #353854;
+	position: sticky;
+
+
+}
+.features-footer span {
+	color:#648cff;
+}
+.features-footer>span {
+	color:#fc6a42;
+}
+.features-footer{
+	margin: 70px 0;
+}
+.menu-footer {
+	margin: 70px 0;
+}
+.SocLink-footer  {
+	margin:  70px 0;
+}
+.footer .col-xl-12 {
+	color: #565b87;
+}
+
+
+  #carousel {
+
+  	margin: 200px 0 0 0;
+  	width:800px;
+    height: 300px;
+    display: relative;
+  }
+  #carousel img {
+  	-webkit-box-shadow: 0px 0px 19px 3px rgba(0,0,0,0.05);
+-moz-box-shadow: 0px 0px 19px 3px rgba(0,0,0,0.05);
+box-shadow: 0px 0px 19px 3px rgba(0,0,0,0.05);
+    display: hidden; /* hide images until carousel prepares them */
+    cursor: pointer; /* not needed if you wrap carousel items in links */
+  }

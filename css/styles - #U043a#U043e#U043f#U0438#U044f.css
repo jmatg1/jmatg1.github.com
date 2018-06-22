@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'TrajanPro Bold';
+  src: url('../fonts/Trajan Pro Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+	background-image: url(../img/backround.jpg);
+	background-position: top;
+
+	background-repeat: no-repeat;
+}
+.frame {
+	position: relative;
+	background-image: url(../img/frame.png);
+	background-position: top;
+	background-repeat: no-repeat;
+	width: 780px;
+  height: 500px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 25%;
+}
+
+.bulb {
+	position: absolute;
+  left:38%;
+	display: block;
+  margin: 0 auto;
+  margin-top: -14%;
+  z-index: 1;
+}
+.light {
+	display: block;
+  margin: 0 auto;
+  margin-top: -200px;
+}
+.title {
+	z-index: 0;
+  background-image: url(../img/title.png);
+	background-position:center;
+	background-repeat: no-repeat;
+	position: absolute;
+	margin: -245px 0 0 250px;
+	height: 41px;
+	width: 307px;
+	font-family: 'TrajanPro Bold';
+	text-align: center;
+	font-size: 30px;
+  color: #eee533;
+  text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+}
+nav{
+	position: absolute;
+	margin-top: 218px;
+  font-size: 15px;
+  font-family: "TrajanPro Bold";
+  color: rgb(255, 96, 0);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.6;
+  text-shadow: 0px 2px 1.96px rgba(0, 0, 0, 0.75);
+}
+span{
+	margin-left: 140px;
+}
+

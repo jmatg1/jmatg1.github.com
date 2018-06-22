@@ -1,0 +1,350 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201802 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.saroman.ru.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1990                
+POS_TIME 2661                
+POS_VISITOR 8604                
+POS_DAY 8914                
+POS_DOMAIN 3233                
+POS_LOGIN 3464                
+POS_ROBOT 3619                
+POS_WORMS 3929                
+POS_EMAILSENDER 4060                
+POS_EMAILRECEIVER 4203                
+POS_SESSION 9018                
+POS_SIDER 9170                
+POS_FILETYPES 4338                
+POS_DOWNLOADS 4603                
+POS_OS 4651                
+POS_BROWSER 4724                
+POS_SCREENSIZE 4914                
+POS_UNKNOWNREFERER 4988                
+POS_UNKNOWNREFERERBROWSER 5075                
+POS_ORIGIN 5157                
+POS_SEREFERRALS 5294                
+POS_PAGEREFS 5438                
+POS_SEARCHWORDS 7656                
+POS_KEYWORDS 7808                
+POS_MISC 2325                
+POS_ERRORS 7867                
+POS_CLUSTER 3320                
+POS_SIDER_404 7991                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20180301002528 1 0 3667701035403
+FirstTime 20180227092246
+LastTime 20180228214817
+LastUpdate 20180301010251 1 0 0 0 0
+TotalVisits 8                   
+TotalUnique 6                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 6                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 4 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 0 0 0
+1 0 0 0 0 0 0
+2 0 0 0 0 0 0
+3 0 0 0 1 2 4942
+4 0 0 0 1 2 5736
+5 0 0 0 1 1 2868
+6 0 0 0 0 0 0
+7 0 0 0 0 0 0
+8 0 0 0 0 0 0
+9 235 487 23789610 17 22 77087
+10 128 208 5912503 11 11 223096
+11 76 91 4384674 11 12 6012
+12 29 29 188905 0 0 0
+13 0 0 0 1 1 11370
+14 0 0 0 1 2 4942
+15 1 1 2074 0 0 0
+16 0 0 0 0 0 0
+17 2 2 4148 2 2 4942
+18 0 0 0 0 0 0
+19 0 0 0 0 0 0
+20 2 2 4148 1 2 5736
+21 2 2 4148 4 4 11472
+22 0 0 0 1 2 4942
+23 0 0 0 0 0 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 475 822 34290210
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 5
+wordpress 11 280010 20180227100903 0
+no_user_agent 2 4148 20180228105344 0
+googlebot 2 4148 20180227140204 0
+baiduspider 2 14470 20180228112758 0
+mj12bot 1 2074 20180228222523 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+css 76 422010 0 0
+png 18 2186188 0 0
+ttf 2 320244 0 0
+woff 1 17484 0 0
+woff2 1 77160 0 0
+php 312 21258980 0 0
+html 159 4666327 0 0
+jpg 27 3789407 0 0
+js 218 1518791 0 0
+gif 5 31151 0 0
+svg 3 2468 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 4
+macosx 1
+winnt 2
+linux 2
+win7 817
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 8
+chrome61.0.3163.100 1
+firefox32.1 1
+firefox58.0 227
+chrome64.0.3282.167 587
+firefox38.0 2
+chrome34.0.1847.132 2
+firefox40.1 1
+firefox43.1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 13 16
+From1 0 0
+From2 0 0
+From3 455 784
+From4 7 22
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 40
+http://wp.saroman.ru/wp-admin/customize.php 72 133
+http://wp.saroman.ru 72 247
+http://wp.saroman.ru/wp-admin/theme-editor.php 38 43
+http://wp.saroman.ru/wp-admin/index.php 36 36
+http://wp.saroman.ru/wp-admin/plugins.php 32 46
+http://wp.saroman.ru/wp-admin/options-general.php 28 29
+http://wp.saroman.ru/wp-admin/plugin-install.php 25 25
+http://wp.saroman.ru/wp-admin/themes.php 22 22
+http://wp.saroman.ru/%d0%ba%d0%be%d0%bd%d1%82%d0%b0%d0%ba%d1%82%d1%8b/ 22 50
+http://wp.saroman.ru/%d0%be-%d0%bd%d0%b0%d1%81/ 13 16
+http://wp.saroman.ru/wp-admin/tools.php 2 2
+http://wp.saroman.ru/wp-login.php 6 6
+http://wp.saroman.ru/wp-admin/options-reading.php 1 1
+http://wp.saroman.ru/wp-admin/load-styles.php 0 5
+http://wp.saroman.ru/%d0%b1%d0%bb%d0%be%d0%b3/ 11 11
+http://wp.saroman.ru/wp-admin/update-core.php 5 5
+http://wp.saroman.ru/wp-admin/import.php 4 4
+http://wp.saroman.ru/wp-admin/install.php 2 9
+http://wp.saroman.ru/wp-content/plugins/developer/colorbox/colorbox.css 0 2
+http://wp.saroman.ru/wp-admin/ 9 13
+http://wp.saroman.ru/wp-admin/edit.php 8 8
+http://wp.saroman.ru/wp-admin/options-writing.php 1 1
+http://wp.saroman.ru/wp-admin/credits.php 2 2
+http://wp.saroman.ru/wp-admin/about.php 2 2
+http://wp.saroman.ru/wp-admin/plugin-editor.php 5 5
+http://wp.saroman.ru/wp-admin/options-discussion.php 2 2
+http://wp.saroman.ru/wp-admin/css/install.min.css 0 1
+http://wp.saroman.ru/wp-admin/post-new.php 6 7
+http://wp.saroman.ru/wp-content/themes/capri-lite/css/font-awesome.min.css 1 1
+http://wp.saroman.ru/wp-admin/export.php 1 1
+http://wp.saroman.ru/wp-admin/nav-menus.php 4 4
+http://wp.saroman.ru/2018/02/27/%d0%bf%d1%80%d0%b8%d0%b2%d0%b5%d1%82-%d0%bc%d0%b8%d1%80/ 2 15
+http://wp.saroman.ru/wp-admin/post.php 7 10
+http://wp.saroman.ru/wp-admin/setup-config.php 3 8
+http://wp.saroman.ru/wp-admin/users.php 1 1
+http://wp.saroman.ru/wp-admin/profile.php 4 4
+http://wp.saroman.ru/wp-admin/user-new.php 2 2
+http://wp.saroman.ru/wp-admin/edit-comments.php 2 3
+http://wp.saroman.ru/sample-page/ 1 1
+http://wp.saroman.ru/wp-includes/js/tinymce/skins/lightgray/skin.min.css 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+403 2 5824
+302 21 0
+500 1 0
+400 1 1
+404 15 37384
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 7
+/2018/02/05/%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BE%D0%BA/ 1 -
+/ 2 http://forum.saroman.ru/
+/far.php 1 -
+/wp-admin/admin-ajax.php 2 http://wp.saroman.ru/wp-admin/customize.php
+/robots.txt 4 -
+/weather/js/jquery.min.js 1 -
+/mailto:roman%40saroman.ru 4 http://saroman.ru/mailto:roman%40saroman.ru
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 6
+188.133.219.254 467 814 34273618 20180227125126
+46.161.9.39 3 3 6222 20180228205247
+193.169.52.154 2 2 4148 20180228153959
+109.173.125.248 1 1 2074 20180228214817
+81.171.25.209 1 1 2074 20180227213026
+13.56.229.65 1 1 2074 20180227123423
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 2
+20180227 472 819 34283988 5
+20180228 3 3 6222 3
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+1h+ 1
+0s-30s 7
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 42
+/wp-admin/admin-ajax.php 159 1304432 0 1
+/ 114 2721381 8 7
+/wp-admin/load-scripts.php 26 5526599 0 0
+/%d0%ba%d0%be%d0%bd%d1%82%d0%b0%d0%ba%d1%82%d1%8b/ 14 645105 0 0
+/wp-admin/theme-editor.php 13 853366 0 0
+/%d0%be-%d0%bd%d0%b0%d1%81/ 13 517681 0 0
+/wp-admin/plugins.php 13 688565 0 0
+/wp-admin/load-styles.php 12 3526983 0 0
+/wp-admin/options-general.php 12 719864 0 0
+/%d0%b1%d0%bb%d0%be%d0%b3/ 12 501561 0 0
+/wp-admin/credits.php 1 79537 0 0
+/wp-admin/post-new.php 2 321819 0 0
+/wp-admin/index.php 4 293163 0 0
+/wp-admin/users.php 1 38387 0 0
+/wp-admin/export.php 1 31598 0 0
+/wp-admin/options-reading.php 1 31734 0 0
+/wp-admin/plugin-editor.php 4 190869 0 0
+/wp-admin/install.php 2 11801 0 0
+/wp-content/themes/capri-lite/fonts/fontawesome-webfont.woff2 1 77160 0 0
+/sample-page/ 1 22210 0 0
+/wp-includes/js/tinymce/skins/lightgray/fonts/tinymce.woff 1 17484 0 0
+/wp-admin/tools.php 2 51760 0 0
+/wp-admin/ 2 152504 0 0
+/wp-admin/user-new.php 1 33592 0 0
+/wp-admin/post.php 2 364099 0 0
+/wp-admin/plugin-install.php 11 969809 0 0
+/wp-admin/options-writing.php 1 30638 0 0
+/wp-admin/profile.php 2 84770 0 0
+/wp-admin/nav-menus.php 1 95985 0 0
+/wp-admin/about.php 1 41855 0 0
+/fonts/Trajan%20Pro%20Bold.ttf 1 65848 0 0
+/2018/02/27/%d0%bf%d1%80%d0%b8%d0%b2%d0%b5%d1%82-%d0%bc%d0%b8%d1%80/ 3 105885 0 0
+/wp-admin/import.php 1 45283 0 0
+/fonts/lucida-sans-unicode.ttf 1 254396 0 0
+/wp-admin/setup-config.php 3 7765 0 0
+/wp-admin/edit-comments.php 1 59123 0 0
+/wp-admin/edit.php 3 185073 0 0
+/wp-admin/customize.php 10 4860219 0 0
+/wp-admin/themes.php 10 598497 0 0
+/wp-admin/options-discussion.php 2 78032 0 0
+/wp-login.php 7 17461 0 0
+/wp-admin/update-core.php 3 116302 0 0
+END_SIDER
