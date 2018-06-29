@@ -1,0 +1,73 @@
+/* стили для блока под хедером  */
+.sub-header {
+    height: 359px;
+    margin-top: -104px;
+    background: #191d39;
+    padding: 0;
+    position: relative;
+    z-index: 0;
+}
+.sub-header::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 153px;
+    height: 145px;
+    background: url(../img/sub-header/sub-header-title-icon.svg);        
+    background-size: cover;
+    opacity: .08;
+    z-index: 1;
+}
+.sub-header-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    width: 1220px;
+    margin: 0 auto;
+}
+.sub-header-block .media-part-title::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 153px;
+    height: 145px;
+    left: -48%;
+    top: -108%; 
+    background: url(../img/sub-header/sub-header-title-icon.svg) center no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+.sub-header-block-title {
+    padding: 207px 0 104px 55px;
+    font-size: 26px;
+    font-weight: 500;
+    font-family: "Exo2Regular", sans-serif;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: 1.5px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #fff;
+    margin-left: -16%;
+    padding-right: 39%;
+}
+.King {
+    width: 386.3px;
+    height: 315px;
+    background-image: url(../img/sub-header/king.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 0;
+    right: 0;
+    margin-left: 0;
+}

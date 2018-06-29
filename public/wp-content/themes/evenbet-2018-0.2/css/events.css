@@ -1,0 +1,135 @@
+/* стили блока events*/
+.events {
+    padding-top: 72px;
+}
+.wrapper-events {
+    max-width: 817px;
+    margin: 0 auto;
+}
+.events-descr {
+    font-family: "Exo2Light", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.78;
+    letter-spacing: normal;
+    text-align: left;
+    color: #191d39;
+}
+.events-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding-top: 72px;
+    padding-left: 0;
+}
+.event-card {
+    -ms-flex-preferred-size: 48%;
+    flex-basis: 48%;
+    border: solid 3px #d9d9e9;
+    padding: 32px;
+    margin-bottom: 32px;
+    height: 304px;
+}
+.event-date {
+    padding-bottom: 8px;
+    font-family: "Exo2Light", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #3f3d8f;
+}
+.event-title {
+    font-size: 24px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #191d39;
+    margin-bottom: 16px;
+    max-width: 328px;
+    max-height: 68px;
+    overflow: hidden;
+}
+.event-location {
+    font-family: "Exo2Light", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #84848a;
+    padding-bottom: 40px;
+    padding-left: 22px;
+    position: relative;
+}
+.event-location::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 14px;
+    height: 19px;
+    left: 0;
+    top: 0;
+    background: url(../img/marker.svg);
+}
+.event-bottom-part {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.event-image {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+.event-button {        
+    border-radius: 8px;
+    border: solid 1px #be1056;
+    background: #fff;
+    text-align: center;
+    padding: 4px 15px;
+}
+.event-button a {
+    font-family: "Exo2Light", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #be1056;
+    vertical-align: middle;
+    text-decoration: none;
+    margin-bottom: -10px;
+}
+.event-button:hover {
+    text-decoration: underline;
+}
+/*end Events*/

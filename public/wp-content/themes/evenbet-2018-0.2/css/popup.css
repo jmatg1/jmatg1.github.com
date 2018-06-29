@@ -1,0 +1,257 @@
+.overlay {
+    position: fixed;
+    display: none;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.4);    
+}
+.wrapper-overlay {
+    max-width: 817px;
+    margin: 0 auto;
+}
+.popup {
+    position: fixed;
+    left: 50%;
+    top: 100px;
+    width: 100%;
+    max-width: 817px;
+    background-color: #191d39;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    padding: 51px 51px 38px 51px;
+    z-index: 10;
+}
+.popup::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../img/header/popup-bg.svg);        
+    background-size: cover;
+    opacity: .15;
+    z-index: -1;
+}
+.popup-haed-part {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+            margin-top: 17px;
+}
+.popup-close {   
+    font-size: 35px;
+    color: #ffffff;
+    font-weight: 500;
+    cursor: pointer;
+    width: 15px;
+    height: 15.1px;   
+    background-image: url(../img/x.svg);
+    background-position: center;
+    background-repeat: no-repeat;     
+}
+.popup-title {
+    font-family: "Exo2Light", sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: 1.5px;
+    text-align: left;
+    color: #ffffff;
+    padding-bottom: 28px;
+    text-transform: uppercase;
+}
+.user-e-mail-popup, .user-phone-popup {
+    width: 348px;
+    height: 48px;
+    border-radius: 8px;
+    border: solid 3px #534994;
+    background-color: #191d39;
+    font-family: "Exo2Light", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    padding-left: 16px;
+}
+.user-quesion-popup {
+    width: 100%;
+    height: 133px;
+    border-radius: 8px;
+    border: solid 3px #534994;
+    background-color: #191d39;
+    font-family: "Exo2Light", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    padding-left: 16px;
+}
+.label-popup-form, .popup-form__contacts-label-phone, .popup-form__contacts-label-mail {
+    font-family: "Exo2Light", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+.popup-form__contacts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding-bottom: 32px;
+}
+.popup-dropdowns {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    padding-bottom: 32px;
+}
+.popup-dropdowns > div:nth-child(2) {
+    margin-left: 20px;
+}
+.wpcf7-form-control-wrap.menu-743 {
+    width: 395px;
+    height: 48px;
+    border: none;    
+}
+.menu-743 > select.wpcf7-form-control.wpcf7-select.popup-dropdown {
+    width: 348px;
+    height: 48px;
+    background-color: #191d39;
+    border-radius: 8px;
+    border: solid 3px #534994;    
+}
+.wpcf7-form-control-wrap.menu-744 {
+    width: 395px;
+    height: 48px;    
+    border: none;
+}
+.menu-744 > select.wpcf7-form-control.wpcf7-select.popup-dropdown {
+    width: 348px;
+    height: 48px;
+    background-color: #191d39;
+    border-radius: 8px;
+    border: solid 3px #534994;    
+}
+.wpcf7-form-control.wpcf7-select.popup-dropdown {
+    font-family: "Exo2Light", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+.wpcf7-form-control.wpcf7-select.popup-dropdown > option:hover {
+    cursor: pointer;
+}
+.select2.select2-container.select2-container--evenbetgaming {
+    width: 348px;   
+    height: 48px;
+    line-height: 48px; 
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 8px;
+    border: solid 3px #534994;  
+    padding-left: 10px; 
+}
+.select2 >.select2-container:first-child .select2-container--evenbetgaming {
+    margin-right: 32px;    
+}
+.select2-container--default .select2-search--dropdown .select2-search__field {
+    background-color: #191d39;
+}
+.select2-results__option {
+    color: #fff;
+}
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+    background-color: #5897fb;
+    color: #3f3d8f;
+}
+.selection {
+    height: 48px;
+}
+.select2-container--default .select2-selection--single {
+    background-color: #191d39;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    height: 48px;
+}
+/* .select2-container.select2-container--evenbetgaming.select2-container--open > .select2-dropdown {
+
+} */
+/* .select2-container--open .select2-dropdown {
+    left: 1px;
+    top: -15px;
+} */
+.select2.select2-container.select2-container--evenbetgaming.select2-container--below.select2-container--focus > .selection > .select2-selection.select2-selection--single {
+    height: 42px;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered {    
+    color: #fff;
+    line-height: 46px;
+    background: #191d39;
+} 
+.select2-container--evenbetgaming .select2-selection--single .select2-selection__arrow {   
+    color: #fff;
+    font-size: 2em;
+    padding: 4px 12px;
+    height: 44px;
+    position: absolute;
+    top: -6px;
+    right: 15px;
+    width: 20px;
+    border-radius: 2px;
+}
+
+.fa.active {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+}
+span.select2-dropdown.select2-dropdown--below {
+    background-color: #191d39;
+    border-radius: 8px;
+    border: solid 3px #534994;
+    left: 1px;
+    top: -15px;
+}
+
+.popup-form__bottom-part {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+}
+.label-popup-form.question {
+    padding-bottom: 19px;
+}

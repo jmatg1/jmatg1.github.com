@@ -1,0 +1,284 @@
+.sub-header-fantasy {
+    background-color: #6d0e35;
+    height: 413px;
+    margin-top: -104px;    
+    padding: 0;
+    position: relative;
+    z-index: 0;
+}
+.sub-header-fantasy::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../img/casino/casino-bg.svg);
+        background-size: auto auto;
+    background-size: cover;
+    opacity: .15;
+    z-index: -1;   
+}
+.eight-fantasy-page {
+    width: 386.3px;
+    height: 315px;
+    background-image: url(../img/fantasy/peaks.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 4.6px; 
+    right: 0;
+    margin-left: 0;
+}
+.fantasy-sub-header-block-descr {
+    padding-bottom: 60px;
+    padding-right: 7.1%;
+    margin-left: -2.5%;
+}
+.fantasy-header-block-descr-title {
+    padding: 161px 0 24px 0;            
+    font-weight: 500;
+    font-family: "Exo2Regular", sans-serif;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: 1.5px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #fff;    
+    position: relative;
+    z-index: 0;   
+}
+.fantasy-header-block-descr-title::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 94px;
+    height: 73px;
+    left: -11%;
+    top: 63%;  
+    background: url(../img/casino/product-casino-title-img.svg) center no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+.fantasy-header-block-descr-descr {    
+    width: 390px;
+    font-family: "Exo2Light", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    text-align: left;
+    color: #d9d9e9;
+    padding-bottom: 36px;    
+}
+.fantasy-header-block-descr-quote {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family: "Exo2Light", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    vertical-align: middle;
+}
+.wrapper-fantasy {
+    max-width: 817px;
+    margin: 0 auto;
+}
+.fantasy {
+    padding-top: 56px;    
+}
+.fantasy-page-title {
+    font-family: "Exo2Regular", sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: 1.5px;
+    text-align: left;
+    color: #191d39;
+    text-transform: uppercase;
+    padding-bottom: 32px;
+}
+.fantasy-page-descr {
+    font-family: "Exo2Light", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.78;
+    letter-spacing: normal;
+    text-align: left;
+    color: #191d39;
+    padding-bottom: 56px;
+}
+.fantasy-center {
+    background-color: #191d39;
+    text-align: center;
+    padding: 72px 0;    
+    margin-bottom: 72px;
+    position: relative;
+    z-index: 0;
+}
+.fantasy-center::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../img/casino/request-quote-bg.svg);
+        background-size: auto auto;
+    background-size: cover;
+    opacity: .15;
+    z-index: -1;
+}
+.fantasy-center-block-title {
+    font-family: "Exo2Regular", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #d9d9e9;
+    max-width: 612px;
+    margin: 0 auto;
+    padding-bottom: 32px;
+}
+.fantasy-button-first {margin-right: 32px;}
+.fantasy-button-second {margin-right: 8px;}
+.contact-form-fantasy {
+    background-color: #191d39;
+    padding-top: 72px;
+    padding-bottom: 59px;
+    position: relative;
+    z-index: 0;
+}
+/*slider3*/
+
+.swiper-container-3 swiper-container {
+    width:100%;
+}
+.slider-3 .swiper-slide {
+    opacity: 0.2;
+    width:816px;
+    height:543px;
+    /*height: auto;*/
+}
+.slider-item{
+
+}
+.slider-3 {
+    background-image: linear-gradient(to bottom, #1d2545, #181b35);
+
+}
+.contact-form-fantasy::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../img/casino/buy-form-bg.svg);
+        background-size: auto auto;
+    background-size: cover;
+    opacity: .15;
+    z-index: -1;
+}
+.slider-3 img {
+    height:100%;
+    width:  100%;
+
+}
+.slider-3  .swiper-slide-active {
+    opacity: 1;
+    /*width: 60%;*/
+}
+
+.swiper-pagination-3 {
+    position: relative;
+    bottom: 0 !important;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #fff, #fff);
+
+}
+.swiper-pagination-3 span {
+    width: 40px;
+    height: 4px;
+    border-radius: 4px;
+
+    background-color:black;
+    opacity: 0.1;
+}
+.swiper-button-prev-3{
+    background-image: url(../img/slider-button.svg) !important;
+ }
+.swiper-button-next-3{
+    background-image: url(../img/slider-button.svg) !important;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.swiper-pagination-3 .swiper-pagination-bullet-active{
+    background-color: #c5136a;
+    opacity:1;
+}
+/*Video*/
+.video-youtube {
+    /*width:816px;*/
+    height:543px;
+}
+/*features*/
+
+#features {
+     display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: flex-start;
+
+}
+#features-title {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+     display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding-bottom: 0px !important;
+}
+#features-desc {
+    padding-bottom: 32px !important;
+}
+#features .img-angle {
+    padding-left:2%;
+}

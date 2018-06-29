@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="768px" height="270px" viewBox="0 0 768 270" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Events_news_articles</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="768" height="270"></rect>
+        <filter x="-7.7%" y="-18.0%" width="115.4%" height="136.1%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="50" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Events" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Events_news_articles">
+            <g id="Pattern">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#191D39" xlink:href="#path-1"></use>                
+                <g mask="url(#mask-2)" id="Group-46">
+                    <g transform="translate(-513.000000, 0.000000)">
+                        <g>
+                            <path d="M806.717136,304.61663 L552.55257,217.084469 C545.415755,214.625027 541.651784,205.930426 544.036178,197.402073 L597.579477,5.79521562 C599.258535,-0.218849847 605.98786,-2.03558094 609.193781,2.65878364 L637.502113,44.1248138 C640.951873,49.1808107 646.008686,52.428646 651.682462,53.2393194 L689.767298,58.6689459 C695.441075,59.4779054 701.325961,57.7880027 706.274764,53.93002 L749.92864,19.8937344 C753.568236,17.0555206 758.309202,18.6751535 759.649503,23.2135534 L775.854214,78.1165381 C777.672376,84.2797126 781.46744,89.2722953 786.499705,92.1225065 L820.280523,111.258169 C825.311151,114.10838 831.218948,114.610552 836.851812,112.668707 L882.608602,96.8974242 C887.853613,95.0892626 892.259095,100.738268 890.19873,106.634075 L824.725281,294.072734 C821.810658,302.415986 813.853952,307.076072 806.717136,304.61663" id="Fill-20" fill="#3F3D8F"></path>
+                            <g id="Group-33" transform="translate(1081.732406, 49.703020)" fill="#3F3D8F">
+                                <polygon id="Fill-31" points="194.913124 175.85957 50.8103294 280.657531 0 104.797962 144.102794 0"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

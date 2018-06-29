@@ -1,0 +1,580 @@
+.sub-header-casino {    
+    background: rgba(67, 16, 83, 1);
+    background-size: cover;
+    height: 413px;
+    margin-top: -104px;    
+    padding: 0;
+    display: block;
+    position: relative;
+    z-index: 0;
+}
+.sub-header-casino::before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../img/casino/casino-bg.svg);
+    background-size: cover;
+    opacity: .15;    
+    z-index: -1;    
+}
+.Mask {
+    width: 324.1px;
+    height: 395.8px;
+    background-image: url(../img/casino/casino-page-mask.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 2px;
+    right: 0;
+    margin-left: 0;
+}
+.casino-sub-header-block-descr {
+    padding-bottom: 60px;
+    padding-right: 7.1%;
+    margin-left: -2.5%;
+}
+.casino-header-block-descr-title {
+    padding: 161px 0 24px 0;            
+    font-weight: 500;
+    font-family: "Exo2Regular", sans-serif;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: 1.5px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #fff;    
+    position: relative;
+    z-index: 0;
+}
+.casino-header-block-descr-title::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 94px;
+    height: 73px;
+    left: -11%;
+    top: 63%;  
+    background: url(../img/casino/product-casino-title-img.svg) center no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+.products-part-title {
+    font-family: "Exo2Light", sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: 1.5px;
+    text-align: left;        
+    margin: 0;    
+    color: #ffffff;
+    text-transform: uppercase;    
+    position: relative;
+    z-index: 0;
+}
+.casino-header-block-descr-descr {    
+    width: 390px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    font-family: "Exo2Light", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    text-align: left;
+    color: #d9d9e9;
+    padding-bottom: 36px;    
+}
+.casino-header-block-descr-quote {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family: "Exo2Light", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    vertical-align: middle;
+}
+.quote.web-quote.casino-button-second {
+    top: 0;
+}
+.wrapper-casino {
+    max-width: 817px;
+    margin: 0 auto;
+}
+.quote {
+    width: 20px;
+    height: 20px;
+    top: -6px;
+    left: 0;
+    border-radius: 50%;    
+    position: relative;
+    margin-right: 8px;
+}
+.quote::before {
+    content: "?";
+    position: absolute;
+    top: 50%;
+    left: 50%;    
+    margin-left: -4px;
+    margin-top: -12px;    
+}
+.casino {
+    padding-top: 56px;    
+}
+.casino-page-title {
+    font-family: "Exo2Regular", sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: 1.5px;
+    text-align: left;
+    color: #191d39;
+    text-transform: uppercase;
+    padding-bottom: 32px;
+}
+.casino-page-descr {
+    font-family: "Exo2Light", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.78;
+    letter-spacing: normal;
+    text-align: left;
+    color: #191d39;
+    padding-bottom: 56px;
+}
+.advantages-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;    
+    margin: 0;
+    padding: 0;
+}
+.advantages-list-item {
+    -ms-flex-preferred-size: 33%;
+        flex-basis: 33%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-bottom: 58px;
+}
+.advantages-list-item-icon {
+    width: 58px;
+    height: 58px;
+    margin-right: 24px;
+}
+
+.advantages-list-item:nth-child(1) > .advantages-list-item-icon > .advantages-list-item-icon__img {
+    background-image: url(../img/casino/support.svg);
+    background-position: center;
+    background-repeat: no-repeat;        
+    width: 100%;
+    height: 100%;
+}
+.advantages-list-item:nth-child(2) > .advantages-list-item-icon > .advantages-list-item-icon__img {
+    background-image: url(../img/casino/updates-program.svg);
+    background-position: center;
+    background-repeat: no-repeat;        
+    width: 120%;
+    height: 100%;
+}
+.advantages-list-item:nth-child(3) > .advantages-list-item-icon > .advantages-list-item-icon__img {
+    background-image: url(../img/casino/new-functionality.svg);
+    background-position: center;
+    background-repeat: no-repeat;        
+    width: 128%;
+    height: 100%;
+}
+.advantages-list-item:nth-child(4) > .advantages-list-item-icon > .advantages-list-item-icon__img {
+    background-image: url(../img/casino/continuous.svg);
+    background-position: center;
+    background-repeat: no-repeat;        
+    width: 130%;
+    height: 100%;
+}
+.product-package-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.product-package-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-bottom: 72px;
+}
+.product-package-item-textinfo-title {
+    font-family: "Exo2Regular", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #191d39;
+    padding-bottom: 12px;
+    text-transform: uppercase;
+}
+.product-package-item-textinfo-descr {
+    font-family: "Exo2Light", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    text-align: left;
+    color: #191d39;
+}
+.product-package-item:nth-child(odd) {
+    padding-left: 153px;
+}
+.product-package-item:nth-child(even) {
+    padding-left: 0;
+}
+.product-package-item-icon {
+    width: 102px;
+    height: 102px;
+    margin-right: 51px;
+}
+.product-package-item:nth-child(1) .product-package-item-icon .product-package-item-icon__img{
+    background-image: url(../img/casino/server.svg);
+    background-position: center;
+    background-repeat: no-repeat;    
+    width: 100%;
+    height: 100%;
+}
+.product-package-item:nth-child(2) .product-package-item-icon .product-package-item-icon__img{
+    background-image: url(../img/casino/web.svg);
+    background-position: center;
+    background-repeat: no-repeat;    
+    width: 100%;
+    height: 100%;
+}
+.product-package-item:nth-child(3) .product-package-item-icon .product-package-item-icon__img{
+    background-image: url(../img/casino/control-module.svg);
+    background-position: center;
+    background-repeat: no-repeat;    
+    width: 100%;
+    height: 100%;
+}
+.product-package-item:nth-child(4) .product-package-item-icon .product-package-item-icon__img{
+    background-image: url(../img/casino/support.svg);
+    background-position: center;
+    background-repeat: no-repeat;    
+    width: 100%;
+    height: 100%;
+}
+.product-package-item-textinfo {
+    max-width: 511px;
+}
+.casino-center {
+    background-color: #191d39;
+    text-align: center;
+    padding: 72px 0;    
+    margin-bottom: 72px;
+    position: relative;
+    z-index: 0;
+}
+.casino-center::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../img/casino/request-quote-bg.svg);        
+    background-size: cover;
+    opacity: .15;
+    z-index: -1;
+}
+.casino-center-block-title {
+    font-family: "Exo2Regular", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #d9d9e9;
+    max-width: 612px;
+    margin: 0 auto;
+    padding-bottom: 32px;
+}
+.demo {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.demo-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-bottom: 58px;
+}
+.demo-item-icon {
+    width: 102px;
+    height: 95.4px;
+    margin-right: 51px;
+}
+.demo-item:last-child .demo-item-icon {
+    width: 102px;
+    height: 109px; 
+}
+.demo-item:first-child .demo-item-icon__img {
+    background-image: url(../img/casino/web.svg);
+    background-position: center;
+    background-repeat: no-repeat;    
+    width: 100%;
+    height: 100%;
+}
+.demo-item:last-child .demo-item-icon__img {
+    background-image: url(../img/casino/tablet.svg);
+    background-position: center;
+    background-repeat: no-repeat;    
+    width: 100%;
+    height: 100%;
+}
+.demo-item-textinfo {
+    max-width: 638px;
+}
+.demo-item-textinfo__title {
+    font-family: "Exo2Light", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+    text-align: left;
+    padding-bottom: 12px;
+    text-transform: uppercase;
+}
+.demo-item-textinfo__descr {
+    font-family: "Exo2Light", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    text-align: left;
+    color: #191d39;
+    margin-bottom: 32px;
+}
+.demo-item-textinfo__buttons-part {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+}
+.home-casino-buttons-block__learn-more-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;    
+}
+.casino-button-first {margin-right: 32px;}
+.casino-button-second {margin-right: 8px;}
+.contact-form-casino {
+    background-color: #191d39;
+    padding-top: 72px;
+    padding-bottom: 59px;
+    position: relative;
+    z-index: 0;
+}
+.contact-form-casino::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../img/casino/buy-form-bg.svg);        
+    background-size: cover;
+    opacity: .15;
+    z-index: -1;
+}
+.buy-form-press {
+    background-color: #191d39;
+    padding-top: 72px;
+    padding-bottom: 59px;
+}
+.buy-form-title {
+    font-family: "Exo2Light", sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: 1.5px;
+    text-align: left;
+    color: #ffffff;
+    padding-bottom: 28px;
+    text-transform: uppercase;
+}
+.label-buy-form, .buy-form__contacts-label-phone, .buy-form__contacts-label-mail {
+    font-family: "Exo2Light", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+.buy-form__contacts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+.buy-form-dropdowns {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+            padding-bottom: 32px;
+}
+.buy-form-dropdowns > .label-buy-form:nth-child(2) {
+    margin-left: 28px;
+}
+.select2.select2-container.select2-container--evenbetgaming__buy-form {
+    width: 395px;   
+    height: 48px;
+    line-height: 48px; 
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 8px;
+    border: solid 3px #534994;  
+    padding-left: 10px;
+    background-color: #191d39; 
+}
+.select2 >.select2-container:first-child .select2-container--evenbetgaming__buy-form {
+    margin-right: 32px;
+}
+.select2-container--evenbetgaming__buy-form .select2-selection--single .select2-selection__arrow {   
+    color: #fff;
+    font-size: 2em;
+    padding: 4px 12px;
+    height: 44px;
+    position: absolute;
+    top: -6px;
+    right: 15px;
+    width: 20px;
+    border-radius: 2px;
+}
+
+.fa.active {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+}
+.wpcf7-form-control-wrap.menu-741 {
+    width: 395px;
+    height: 48px;
+    border: none;    
+}
+.menu-741 > select.wpcf7-form-control.wpcf7-select.buy-form-dropdown {
+    width: 395px;
+    height: 48px;
+    background-color: #191d39;
+    border-radius: 8px;
+    border: solid 3px #534994;
+}
+.wpcf7-form-control-wrap.menu-742 {
+    width: 395px;
+    height: 48px;    
+    border: none;    
+}
+.menu-742 > select.wpcf7-form-control.wpcf7-select.buy-form-dropdown {
+    width: 395px;
+    height: 48px;
+    background-color: #191d39;
+    border-radius: 8px;
+    border: solid 3px #534994;
+}
+.wpcf7-form-control.wpcf7-select.buy-form-dropdown {
+    font-family: "Exo2Light", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+.wpcf7-form-control.wpcf7-select.buy-form-dropdown > option:hover {
+    cursor: pointer;
+}
+.buy-form__bottom-part {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    padding-top: 24px;
+}
+div.wpcf7 .ajax-loader {
+    margin: 0;
+}

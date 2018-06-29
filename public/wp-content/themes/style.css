@@ -1,0 +1,13 @@
+/*   
+Theme Name: EvenBet
+Author: Sergei Prokopenko Enterra Holdings.
+*/
+
+
+body {
+    background: red;
+}
+.top.menu {
+    display: flex;
+    color: aqua;
+}

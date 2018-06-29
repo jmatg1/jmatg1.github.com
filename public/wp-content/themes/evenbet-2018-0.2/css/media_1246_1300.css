@@ -1,0 +1,28 @@
+@media screen and (min-width: 1246px) and (max-width: 1300px){
+    .header-block__menu {
+        margin-right: -3%;
+    }
+    .nav {
+        padding-left: 0;
+    }
+    .nav li {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .nav li:nth-child(6) {
+        -webkit-transform: translateX(370%);
+        transform: translateX(370%);
+    }
+    .nav li:nth-child(7) {
+        right: -82%;
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        width: 61px;
+    }
+    .slider-3 .swiper-slide {
+
+        width:816px;
+        height:543px;
+        /*height: auto;*/
+    }
+}

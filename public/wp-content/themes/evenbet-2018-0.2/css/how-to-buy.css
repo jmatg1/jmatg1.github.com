@@ -1,0 +1,214 @@
+/*how to buy*/
+.how-to-buy{
+    padding-top: 32px;
+}
+.wrapper-how-to-buy {
+    max-width: 817px;
+    margin: 0 auto;
+}
+.post {
+    /* max-width: 392px; */
+    -ms-flex-preferred-size: 46%;
+    flex-basis: 46%;
+    padding-bottom: 56px;
+    max-height: 100%;
+    /* padding-right: 33px; */
+}
+.how-to-buy-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.slider-ul {
+    margin-left: 0; /* Отступ слева в браузере IE и Opera */
+    padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    /*white-space: nowrap; !* Запрещаем перенос строк *!*/
+    /*overflow: auto;*/
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+.slider-ul::-webkit-scrollbar /*убираем скрол*/
+{
+    width:0px;
+}
+.slider-li{
+    cursor: pointer;
+}
+.slider-li{
+
+    margin-left: 10px;
+    list-style-type: none; /* Убираем маркеры */
+    -webkit-box-flex: 1;
+        -ms-flex: auto;
+            flex: auto;
+    font-family: Exo2.0;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #191d39;
+    text-transform: uppercase;
+    height: 100%;
+
+}
+.slider-li img{
+    display: inline;
+    padding-right:5px;
+    vertical-align:baseline;
+}
+.activet-line {
+    border-bottom: 2px solid red;
+
+}
+.view {
+    list-style-type: none; /* Убираем маркеры */
+    display: block;
+    margin-left: 0; /* Отступ слева в браузере IE и Opera */
+    padding-left: 0;
+    margin-bottom: 72px;
+}
+.wrapper-how-to-buy .view {
+    height: 60px;
+}
+/*section main question*/
+.main-question {
+    background-image: radial-gradient(circle at 50% 0, #363e6b, #191d39);
+
+}
+.wrapper-how-to-buy > div:first-child {
+    padding: 72px 0;
+    font-family: Exo2.0;
+    font-size: 40px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: 1.5px;
+    text-align: left;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.block  .title {
+    font-family: Exo2.0;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #ffffff;
+    margin-bottom:24px;
+    text-transform: uppercase;
+}
+.block {
+    padding-bottom:56px;
+ }
+
+.block .desc {
+    width: 294px;
+    height: 96px;
+    font-family: Exo2.0;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.78;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+.blocks {
+    display: flex; /* Safari */
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row; /* Safari */
+    flex-wrap: wrap; /* Safari */
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    /* align-items: flex-start; */
+    -ms-flex-wrap: wrap;
+
+}
+.PS{
+    padding-bottom:72px;
+}
+/* END section main question*/
+/*answers and question*/
+.questions {
+    margin-bottom:16px ;
+    margin-top: 72px;
+}
+.questions .question {
+    list-style-type: none; /* Убираем маркеры */
+    margin-left: 0; /* Отступ слева в браузере IE и Opera */
+    padding-left: 0;
+
+}
+.question .title {
+    font-family: Exo2.0;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: left;
+    color: #191d39;
+    padding-bottom:16px;
+}
+.question .answer {
+    margin-bottom:56px;
+}
+.answers {
+    padding-left: 0;
+}
+.answers li:first-child .title {
+    text-transform:capitalize;
+    padding-bottom: 32px;
+    font-family: Exo2 .0;
+    font-size: 24px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #191d39;
+    padding-bottom:1;
+}
+/* END answers and question*/
+
+/*how to buy end*/

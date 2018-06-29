@@ -1,0 +1,183 @@
+.why-us {
+    padding: 0;    
+}
+.wrapper-why-us {
+    max-width: 817px;
+    margin: 0 auto;
+}
+.why-us-page-title {
+    font-family: "Exo2Light", sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: 1.5px;
+    text-align: left;
+    color: #191d39;
+    padding: 72px 0;
+    text-transform: uppercase;
+}
+.why-us-page-title:first-child .company-part-title {
+    padding-bottom: 0;
+}
+.why-us-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.why-us-list-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-bottom: 72px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.why-us-list-item-icon-img {
+    width: 102px;
+    height: 102px;
+}
+.why-us-list-item:nth-child(1) .why-us-list-item-icon-img {
+    background: url(../img/why-us/medal.svg) center no-repeat;
+    background-size: cover;
+    width: 72px;
+    height: 102px;
+}
+.why-us-list-item:nth-child(2) .why-us-list-item-icon-img {
+    background: url(../img/why-us/square.svg) center no-repeat;
+    background-size: cover;
+    width: 102px;
+    height: 102px;
+}
+.why-us-list-item:nth-child(3) .why-us-list-item-icon-img {
+    background: url(../img/why-us/support.svg) center no-repeat;
+    background-size: cover;
+    width: 102px;
+    height: 97px;
+}
+.why-us-list-item:nth-child(4) .why-us-list-item-icon-img {
+    background: url(../img/why-us/cogwheels.svg) center no-repeat;
+    background-size: cover;
+    width: 102px;
+    height: 102px;
+}
+.why-us-list-item-textinfo {
+    padding-left: 51px;
+    max-width: 511px;
+}
+.why-us-list-item-textinfo-title {
+    font-family: "Exo2Light", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #191d39;
+    padding-bottom: 14px;
+    text-transform: uppercase;
+}
+.why-us-list-item-textinfo-descr {
+    font-family: "Exo2Light", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    text-align: left;
+    color: #191d39;
+}
+.why-us-list-item:nth-child(even) {
+    padding-left: 153px;
+}
+.why-us-technology {
+    background: #191d39;  
+    padding: 72px 0; 
+    position: relative;
+    z-index: 0;
+}
+.why-us-technology::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../img/why-us/technology-leadership.svg);
+        background-size: auto auto;
+    background-size: cover;
+    opacity: .15;
+    z-index: -1;
+}
+.why-us-technology-block-title {
+    font-family: "Exo2Light", sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: 1.5px;
+    text-align: left;
+    color: #ffffff;    
+    padding-bottom: 32px;
+}
+.why-us-technology-block-descr {
+    font-family: "Exo2Light", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.78;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    padding-bottom: 72px;
+}
+.why-us-technology-block-gaming-software {
+    font-family: "Exo2Light", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+.why-us-page-descr {
+    font-family: "Exo2Light", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.78;
+    letter-spacing: normal;
+    text-align: left;
+    color: #191d39;
+}
+.contact-form-why-us {
+    background-color: #191d39;
+    padding-top: 72px;
+    padding-bottom: 59px;
+    position: relative;
+    z-index: 0;
+}
+.contact-form-why-us::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../img/casino/buy-form-bg.svg);
+        background-size: auto auto;
+    background-size: cover;
+    opacity: .15;
+    z-index: -1;
+}

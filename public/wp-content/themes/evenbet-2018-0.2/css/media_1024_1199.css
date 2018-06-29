@@ -1,0 +1,66 @@
+@media screen and (min-width: 1024px) and (max-width: 1199px){
+    .header-block__menu {
+        margin-right: -3%;
+    }
+    .nav {
+        padding-left: 0;
+    }
+    .nav li:nth-child(6) {
+        -webkit-transform: translateX(131%);
+        transform: translateX(131%);
+    }
+    .nav li:nth-child(7) {
+        right: -28%;
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        width: 61px;
+    }
+    .sub-header-block {
+        width: 817px;
+    }
+    .sub-header-block-title {
+        margin-left: -7%;
+    }
+    .mediacentre-sub-header-block-title {
+        margin-left: -13%;
+        padding-right: 25%;
+    }
+    .post-news-image {
+        padding-bottom: 16px;
+    }
+    .mediacentre-news-post {
+        padding-right: 40px;
+    }
+    .mediacentre-subscribe-descr {
+        max-width: 400px;
+    }
+    .press-sub-header-block-title {
+        padding-top: 183px;
+        padding-left: 4px;
+        padding-right: 0;
+        padding-bottom: 80px;
+        width: 364px;
+    }
+    .press-sub-header-block-img {
+        margin-right: -25%;
+    }
+    .casino-sub-header-block-descr {
+        padding-bottom: 60px;
+        padding-right: 15.1%;
+        margin-left: 8%    
+    }
+    .sub-header-casino-block {
+        width: 100%;
+    }
+    .news-sub-header-block {
+        width: 100%;
+    }
+    .news-sub-header-block-title { 
+        padding-left: 0;       
+        margin-left: 9.5%;
+        padding-right: 17%;   
+    }
+    .mediacentre-article-img img {
+        height:418px;
+    }
+}

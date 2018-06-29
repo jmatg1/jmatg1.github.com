@@ -1,0 +1,34 @@
+<div class="mediacentre-blocks">
+	<!--Работает только на 320px-->
+	<div class="mediacentre-block__events-head mediacentre-events-title article-320" style="display:none;">
+                    <div class="mediacentre-block__title">Articles</div>
+                    <div class="mediacentre-block__link">
+                        <button class="mediacentre-button">
+                            <a href="#">All events</a>
+                        </button> <!-- /.mediacentre-button -->
+                    </div>
+                    <!-- /.mediacentre-block__link -->                        
+                </div>
+	
+	<div class="mediacentre-article-img">
+		<img src="{@article_image}" alt="Image {@title}"/>
+	</div>
+
+		<div class="mediacentre-article-card" >
+			<div class="not-flex">
+			<div class="mediacentre-article-heading">Articles</div>
+				<button class="mediacentre-button mediacentre-article-link-up" style="display:none;">
+					<a href="#">All articles</a>
+				</button>
+			</div>
+			<div class="mediacentre-article-date post-date">{@article_date}</div>
+			<div class="mediacentre-article-title">{@title}</div>
+			<div class="mediacentre-article-editor">{@content}</div>
+				<div class="mediacentre-article-link mediacentre-article-link-down">
+					<button class="mediacentre-button">
+						<a href="#">All articles</a>
+					</button> <!-- /.mediacentre-button -->
+        		</div>
+		</div>
+
+</div>

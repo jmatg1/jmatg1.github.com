@@ -1,0 +1,43 @@
+.site-footer {
+    padding: 66px 0;
+    background-color: #191d39;
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: left;
+    color: #d9d9e9; }
+.footer-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.footer-img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+}
+.links-18plus {    
+    width: 32px;
+    height: 32px;
+    background-image: url('../img/footer/18+.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 8px;
+}   
+.links-itechlabs {    
+    width: 32px;
+    height: 32px;
+    background-image: url('../img/footer/Itech_labs.png');
+    background-repeat: no-repeat;
+    background-position: center;
+
+}

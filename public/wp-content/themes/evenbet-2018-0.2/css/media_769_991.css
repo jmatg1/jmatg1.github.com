@@ -1,0 +1,330 @@
+@media screen and (min-width: 769px) and (max-width: 991px){
+    .header-logo {
+        margin-top: -1%;
+        background-image: url(../img/header/logo-mobile.svg);
+        width: 90px;
+        height: 50px;
+    }
+    .header-block__menu {
+        margin-right: -2%;
+    }
+    .nav {
+        padding-left: 0;
+    }
+    .nav li {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .nav li a {
+        font-size: 14px;
+    }
+    .nav li:nth-child(6) {
+        -webkit-transform: translateX(50%);
+        transform: translateX(50%);
+    }
+    .nav li:nth-child(7) {
+        right: -12%;
+        -webkit-transform: translateX(12%);
+        transform: translateX(12%);
+        width: 61px;
+    }
+    .sub-header {
+        height: 290px;
+    }
+    .sub-header-block {
+        width: 690px;
+    }
+    .mediacentre-sub-header-block-title {
+        font-size: 32px;
+        margin-left: -12%;
+        padding-right: 23%;
+    }
+    .King {
+        width: 270px;
+        height: 220px;
+        top: -59px;
+    }
+    .Mask {
+        width: 268px;
+        height: 325px;
+        top: 0;}
+    .events-block {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-line-pack: center;
+        align-content: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    }
+    .event-title {
+        max-width: 463px;
+    }
+    .events-descr {
+        width: 540px;
+        margin: 0 auto;
+        text-align: justify;
+    }
+    .event-card {
+        /* flex-basis: 90%; */
+        width: 540px;
+    }
+    /*Articles*/
+    .article-card {
+        /* flex-basis: 90%; */
+        width: 540px;
+        /*height: 560px;*/
+    }
+    .article-image img {
+        width:540px;
+    }
+    /*--*/
+    .mediacentre {
+        padding-top: 63px;
+        padding-bottom: 63px;
+    }
+    .mediacentre-blocks {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        padding-bottom: 32px;
+    }
+    .mediacentre-block__title {
+        font-size: 32px;
+    }
+    .mediacentre-news {
+        max-width: 100%;
+        padding-bottom: 22px;
+        border-bottom: 3px solid #d9d9e9;
+    }
+    .mediacentre-block__news-head {
+        margin-bottom: 31px;
+    }
+    .mediacentre-news-post {
+        padding-right: 32px;
+    }
+    .mediacentre-events-title {
+        padding-top: 32px;
+        max-width: 463px;
+    }
+    .mediacentre-events {
+        max-width: 100%;
+        padding-bottom: 32px;
+        border-bottom: 3px solid #d9d9e9;
+    }
+    .mediacentre-subscribe {
+        padding-left: 0;
+    }
+    .mediacentre-subscribe-block {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .mediacentre-subscribe-title {
+        font-size: 20px;
+    }
+    .mediacentre-subscribe-descr {
+        max-width: 100%;
+        padding-bottom: 32px;
+    }
+    .subscribe-input-field {
+        margin-right: 34%;
+    }
+    .mediacentre-subscribe-input {
+        width: 372px;
+    }
+    .subscribe-form {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+    .press-sub-header-block-title {
+        padding-top: 173px;
+        padding-left: 4px;
+        padding-right: 0;
+        padding-bottom: 80px;
+        width: 364px;
+    }
+    .press-sub-header-block-img {
+        margin-right: -25%;
+    }
+    .press-wrapper {
+        width: 540px;
+    }
+    .wrapper-why-us {
+        width: 540px;
+    }
+    .wrapper-casino {
+        width: 540px;
+    }
+    .user-e-mail, .user-phone {
+        width: 258px;
+    }
+    .button-send {
+        width: 102px;
+    }
+    .casino-header-block-descr-title {
+        padding-top: 133px;
+    }
+    .casino-header-block-descr-descr {
+        max-width: 290px;
+    }
+    .advantages-list-item {
+        -ms-flex-preferred-size: 50%;
+            flex-basis: 50%;
+    }
+    .product-package-item-icon {
+        margin-right: 45px;    
+    }
+    .product-package-item-textinfo {
+        max-width: 315px;   
+    }
+    .product-package-item:nth-child(2n+1) {
+        padding-left: 92px;    
+    }
+    .mediacentre-article-link-down {
+        display: none;
+    }
+    .mediacentre-article-link-up {
+        display: inline !important;
+    }
+    .not-flex {
+        display: -webkit-inline-box;
+        display: -ms-inline-flexbox;
+        display: inline-flex;
+    }
+
+    .mediacentre-blocks {
+         -webkit-box-orient: vertical;
+         -webkit-box-direction: normal;
+             -ms-flex-direction: inherit;
+                 flex-direction: inherit;
+         flex-direction: inherit;
+    }
+    .pod-customers-slider-img {
+        width: 149px;
+        margin: 0 auto;
+    }
+    .pod-customers-slider-img {
+        width: 540px;
+    }
+    /*Buy contact form */
+    .buy-form-dropdowns > .label-buy-form:nth-child(2) {
+        margin-left: 24px;
+    }
+    .wpcf7-form-control-wrap.menu-741 {
+        width: 258px;        
+        margin-right: 24px;
+    }
+    .menu-741 > select.wpcf7-form-control.wpcf7-select.buy-form-dropdown {
+        width: 258px;        
+    }
+    .wpcf7-form-control-wrap.menu-742 {
+        width: 258px;
+    }
+    .menu-742 > select.wpcf7-form-control.wpcf7-select.buy-form-dropdown {
+        width: 258px;        
+    }    
+    .select2.select2-container.select2-container--evenbetgaming__buy-form {
+        width: 258px;
+    }
+    /*End Buy contact form */
+    
+    .pod-customers-slider-img {
+        width: 149px;
+        margin: 0 auto;
+    }
+    .pod-customers-slider-img {
+        width: 540px;
+    }
+    /*Popup form */
+    .popup {
+        width: 540px;        
+    }
+    .user-e-mail-popup, .user-phone-popup {
+        width: 213px;
+    }
+    .select2.select2-container.select2-container--evenbetgaming {
+        width: 213px;
+    }
+    .popup-dropdowns > div:nth-child(2) {
+        margin-left: 13px;
+    }
+    /*End Popup form */
+    /*Poker*/
+    .King-poker-page {        
+        top: 8.6px;       
+    }
+    .wrapper-poker {
+        width: 540px;
+    }
+    .poker-header-block-descr-title {
+        padding-top: 133px;
+    }
+    .poker-header-block-descr-descr {
+        max-width: 290px;
+    }
+    /*End Poker*/
+    /*Fantasy sport page*/
+    .eight-fantasy-page {       
+        top: -34.4px;           
+    }
+    .wrapper-fantasy {
+        width: 540px;
+    }
+    .fantasy-header-block-descr-title {
+        padding-top: 133px;
+    }
+    .fantasy-header-block-descr-descr {
+        max-width: 290px;
+    }
+    /*End Fantasy sport page*/
+    .slider-3 .swiper-slide {
+        width:540px;
+        height:359px;
+        /*height: auto;*/
+    }
+    .video-youtube{
+        height:359px;
+    }
+    /*Home*/
+    .main-casino {
+        padding: 56px 0;
+    }
+    .home-casino-header-block-descr-title {
+        font-size: 18px;
+    }
+    .home-casino-mask {
+        top: 108px;
+        right:0;
+    }
+    /*End Home*/
+    /*News*/
+    .news-sub-header-block {
+        width: 100%;
+    }
+    .news-sub-header-block-title { 
+        padding-left: 0;       
+        margin-left: 9.5%;
+        padding-right: 17%;   
+    }
+    .news-sub-header-block-img {
+        top: 1.5px;
+    }
+    .post-news-image {
+        padding-bottom: 16px;
+    }
+    /*End News*/
+}
