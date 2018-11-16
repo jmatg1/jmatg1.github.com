@@ -1,0 +1,13 @@
+{
+  "name": "test",
+  "main": "gulpfile.js",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-stylus": "^2.7.0"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
