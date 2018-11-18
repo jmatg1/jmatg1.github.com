@@ -1,0 +1,743 @@
+@import 'nib'
+@import "_reset.styl"
+reset()
+font(name,link){
+  @font-face {
+    font-family: name;
+    src:    local(name),
+            url('../fonts/' + link + '.woff2') format("woff2"),
+            url('../fonts/' + link + '.ttf') format("ttf");
+  }
+}
+font("Lato Black","Lato-Black")
+font("Lato Bold","Lato-Bold")
+font("Lato Heavy","Lato-Heavy")
+font("Lato Regular","Lato-Regular")
+font("Lato Semibold","Lato-Semibold")
+a
+  color  inherit
+  text-decoration: none
+  &:visited
+    color inherit
+  &:active
+    color inherit
+button
+  outline: none;
+.wrapper
+  margin: 0 auto
+  width: 90%
+  @media screen and (max-width: 1920px) and (min-width: 1024px)
+    max-width:1530px
+
+//@media screen and (max-width: 1919px) and (min-width: 1024px)
+  //  max-width:940px
+/*
+ *     HEADER
+ */
+/*= Reset CSS
+============= */
+html, body {border: 0; margin: 0; padding: 0;}
+body {font: "Lato", Arial, sans-serif; min-width: 100%; min-height: 100%; color: #666;}
+.container{margin: 0 auto; max-width: 1200px;}
+*{margin: 0; padding: 0; box-sizing: border-box;}
+.row{float: left; width: 100%; padding: 20px 0 50px;}
+//h2{text-align: center; color: #2079df; font-size: 28px; float: left; width: 100%; margin: 30px 0; position: relative; line-height: 58px; font-weight: 400;}
+/*= Reset CSS End
+================= */
+
+/*= input focus effects css
+=========================== */
+
+header.head
+  font-family: "Lato Regular", Arial,sans-serif;
+  font-size: 14px
+  height: 80px
+  display: flex
+  align-content center
+  @media screen and (max-width: 610px)
+    height: 55px
+  .wrapper
+    display: flex
+    justify-content: space-between
+    align-items center
+
+  .search-input
+    width:190px
+    color: #000
+    height: 35px
+    border 0px
+    font-size: inherit
+    //margin-left:15px
+    &:focus
+      outline: none;
+    &::placeholder
+      color: #293137
+  .search
+    position: relative;
+    //margin-left: 20px
+    display: flex;
+    flex-basis: 43%;
+    margin-left: 22px;
+    @media screen and (max-width: 610px)
+      display: none
+
+    &:hover .search-input::placeholder
+      color #0060af
+    &:before
+      background:url("../images/search.png") no-repeat;
+      content ''
+      width: 20px
+      height: 20px
+      display: inline-block;
+      position:relative
+      top: 7px;
+      //left: 25px;
+      z-index: 999;
+    &:focus{outline: none;}
+    // подчеркивает инпут при активации
+    //https://codepen.io/Takumari85/pen/RaYwpJ
+    .effect-2{border: 0; padding: 7px 5px; border-bottom: 1px solid #fff;}
+    .effect-2 ~ .focus-border{position: absolute; bottom: 0; left: 50%; width: 0; height: 2px; background-color: #3399FF; transition: 0.4s;}
+    .effect-2:focus ~ .focus-border{width: 100%; transition: 0.4s; left: 0;}
+    .input-effect     {margin-left: 10px;}
+  .logo
+    display: flex;
+    flex-basis: 20%;
+    justify-content: center;
+    height: 55px;
+    @media screen and (max-width:610px )
+      height: auto
+    img
+      @media screen and (max-width:610px )
+        width: 115px;
+        height: 27px;
+
+.header-menu
+   display: flex;
+   flex-basis: 45%;
+   justify-content: flex-end;
+   align-items: center;
+   @media screen and (max-width:610px )
+      margin-right: 50px;
+.nav
+    display: flex
+    justify-content:  flex-end
+    align-items center
+    margin-right: 20px
+  .nav-item a
+    display: flex
+    align-items center
+    height: 20px
+    &:hover
+      color #0060af
+  .nav-item span
+    margin-left: 20px
+    margin-right: 8px
+@media screen and (max-width: 1160px)
+  header.head
+    .wrapper
+    .search-input
+    .search
+      margin-left: auto
+    .header-menu
+      .nav
+        margin-right: 0px
+        .nav-item
+          margin-left: 20px
+          &:last-child a
+             position: relative
+          span
+            margin-left: 0
+            &.text-cart
+              display: none
+            &.count
+              font-size: 9px;
+              font-family: "Lato";
+              color: rgb(41, 49, 55);
+              line-height: 3;
+              position: absolute
+              right: -3px;
+              height:100%
+@media screen and (min-width: 1161px)
+  .total-price, .count
+    display: none
+@media screen and (max-width: 900px)
+  .total-price
+    display: none
+//    end HEADER
+
+
+
+
+
+.navigation .wrapper
+  min-height: 55px
+  border-bottom 1px solid rgb(239, 239, 239);
+  border-top 1px solid rgb(239, 239, 239);
+  @media screen and (max-width: 610px)
+    border-bottom 0
+    min-height 0px
+  nav.nav-top
+    min-height: 55px
+    font-size: 16px
+    font-family "Lato Regular", Arial, sans-serif
+    color: #0060af
+    display: flex;
+    justify-content: space-between;
+    @media screen and (max-width: 1160px)
+        font-size: 15px
+    @media screen and (max-width: 610px)
+      min-height:0px
+  .nav-top-left-list
+    display: flex
+    justify-content: end
+    align-items center
+    flex-basis: 30%
+    @media screen and (max-width: 900px)
+      display: block
+      position: relative
+      margin-top  45px
+      margin-bottom: 15px
+      flex-basis: 100%;
+      justify-content: center;
+      text-align: left
+    @media screen and (max-width: 610px)
+      border-bottom 1px solid #efefef
+      margin-top  10px
+      padding-bottom: 10px
+    li
+      margin-left: 20px;
+      @media screen and (max-width: 1160px)
+        margin-left: auto
+        margin-right: 20px
+      @media screen and (max-width: 900px)
+        margin-top 5px
+        a
+          display: block
+          height: 25px
+          line-height: 25px;
+  a:hover
+    color: #0004af;
+  .search-mobile
+    display: none
+    @media screen and (max-width: 610px)
+      display: block
+      color: #000
+  .nav-top-right-list
+    flex-basis: 30%
+    display: flex
+    justify-content: flex-end
+    align-items center
+    margin-right: 20px
+    @media screen and (max-width: 1160px)
+      margin-right: 0
+    li
+      margin-left: 20px;
+    @media screen and (max-width: 900px)
+      display: none;
+  .contacts
+    flex-basis: 60%
+    color: #000
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media screen and (max-width: 610px)
+      position: inherit
+      font-size: 15px
+      flex-direction: column;
+
+    @media screen and (max-width: 900px) and (min-width: 610px)
+      visibility: visible
+      display: block
+      position: absolute
+      right: 5%;
+      margin-top: 2%;
+      font-size:15px
+    @media screen and (max-width: 1078px) and (min-width: 900px)
+      flex-basis: 20%;
+    .phones
+      color: #000
+      font-size: 16px
+      font-family "Lato Bold",Arial,sans-serif
+      @media screen and (max-width: 610px)
+        width:130px
+        font-size: 15px
+      a
+        margin-left:25px
+        @media screen and (max-width: 610px)
+          margin-left:auto
+          height: 25px;
+          line-height: 25px;
+    .time
+      position: absolute;
+      text-align: center;
+      justify-content: center;
+      display: flex;
+      justify-content: center;
+      background: white;
+      top: 130px;
+      width: 170px;
+      color: #949697;
+      font-size: 14px;
+      font-family: "Lato Regular", Arial, sans-serif;
+      @media screen and (max-width: 900px) and (min-width: 610px)
+        display: none
+      @media screen and (max-width: 610px)
+        position: static
+
+//Кнопка открытия меню в мобилке
+.toggle-button
+  position: absolute
+  left: 5%;
+  margin-top: 9px;
+  @media screen and (max-width: 610px)
+    top: 5px;
+    left: auto
+    right: 5%
+  span
+    position: relative;
+    top: -8px;
+    left: 5px;
+    font-family: "Lato Regular", Arial, sans-serif;
+    color: #0060af;
+    font-size: 15px
+    @media screen and (max-width: 610px)
+      display: none
+  @media screen and (min-width: 901px)
+    display: none
+.container
+  display: inline-block
+  cursor: pointer
+
+.bar1, .bar2, .bar3
+  width: 35px
+  height: 2px
+  background-color: #0000ff
+  margin: 6px 0
+  transition: 0.4s
+  @media screen and (max-width: 610px)
+    background-color: black
+    width: 20px
+.change .bar1
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px)
+  transform: rotate(-45deg) translate(-9px, 6px)
+.change .bar2
+  opacity: 0
+.change .bar3
+  transform: rotate(45deg) translate(-5px, -3px);
+//** END Кнопка открытия меню в мобилке
+
+
+
+/*
+ * SLIDER MAIN
+*/
+.main-slider
+  margin-top: 60px
+  @media screen and (max-width: 610px)
+    margin-top: 20px
+  .slider-wrapper-left
+    //position: absolute
+    background-color: #ecf7ff;
+    min-height: 458px
+    //max-width:49.37%
+    max-width:53.37%
+    float: left
+    margin: 28px auto;
+    .title
+      color: #0060af
+      font-size: 40px
+      font-family "Lato Heavy",Arial,sans-serif
+    .description
+      position: relative
+      font-size: 18px;
+      font-family: "Lato";
+      color: rgb(41, 49, 55);
+      line-height: 1.556;
+      margin: 30px 0
+      display: block
+      max-width: 490px
+      //max-height: 80px;
+      //Точки в конце третьей строчке текста, если больше трех строчек текста
+      //overflow hidden
+      //text-align: justify;
+      //margin-right: -1em;
+      //padding-right: 1em;
+      //&:before {
+      //  content: '...';
+      //  position: absolute;
+      //  right: 0;
+      //  bottom: -5px;
+      //}
+      //&:after {
+      //  content: '';
+      //  position: absolute;
+      //  right: 0;
+      //  width: 1em;
+      //  height: 2em;
+      //  margin-top: 0.2em;
+      //  background: #ecf7ff;
+      //}
+      //**//
+    .slider-wrapper-left-content
+      padding: 80px 12%
+      margin: 0 auto
+      line-height: 1.25;
+      button
+        border-radius: 3px;
+        background-color: rgb(0, 96, 175);
+        width: 238px;
+        height: 40px;
+        border: none;
+        color white
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 13px;
+        font-family: "Lato";
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        line-height: 2.154;
+        @media screen and (min-width: 769px)
+          &:hover
+            cursor: pointer
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        &:nth-child(1n)
+          margin-right: 15px
+          margin-bottom: 15px
+  .slider-wrapper-right
+    position: absolute
+    height: 100%
+    width 50.63%
+    left: 50.63%
+    //float: right
+    .first
+      position: absolute
+      height: 95%
+      float:left
+      width: 50%
+      //height: 485px;
+      background-position: 50%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: 0 auto;
+      background-image url("../images/girl.jpg")
+      border-radius:  10px 10px 0 0/ 10px 10px 0 0;
+    .second
+      position: absolute
+      top: 28px
+      float: right
+      width: 47.5%
+      left 50%
+      height: 95%;
+      background-position: 50% center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: 0 auto;
+      background-image url("../images/boy.jpg")
+      border-radius: 0 0 10px 10px/0 0 10px 10px;
+//    Навигация слайдеров
+.dots
+  display: flex
+  width: 300px
+  justify-content: start
+  align-items: center
+  position: relative;
+  bottom: 90px;
+  left: 6.3%
+  position: relative
+  li
+    flex-basis: 12%
+  button
+    border-radius: 50%;
+    color: #fff
+    border-style: solid;
+    border-width: 2px;
+    border-color: #b6d2e6
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    width: 24px;
+    height: 24px;
+    outline none
+    cursor: pointer
+    &:hover
+        background-color: #ccc;
+        color: #ccc
+  .slick-active:after
+    content: ''
+    border-radius: 50%;
+    background-color: rgb(0, 96, 175);
+    opacity: 0.502;
+    position: absolute
+    width: 10px;
+    height: 10px;
+    top: 7px
+    margin-left: -17px;
+  .slick-active button
+    border-color: rgb(0, 96, 175);
+    opacity: 0.5
+//**//
+@media screen and (min-width: 1920px)
+  .main-slider
+    .slider-wrapper-left
+      width:53.37%
+      .slider-wrapper-left-content
+          //padding: 78px 0 0 130px
+    .slider-wrapper-right
+      width 50.63%
+
+      //left 130px
+@media screen and (max-width: 1024px)
+  .main-slider
+    .slider-wrapper-left
+      .slider-wrapper-left-content
+        .title
+          font-size: 32px
+@media screen and (max-width: 769px)
+  .main-slider
+    .slider-wrapper-left
+      min-height: 385px;
+      .slider-wrapper-left-content
+        padding: 37px 12%;
+        .title
+          font-size: 26px;
+          line-height: 1.385;
+        .description
+          font-size: 16px;
+          line-height: 1.5;
+          margin: 22px 0;
+        .buttons
+          margin-bottom: 35px
+        button
+          height: 18px
+          color #0060af
+          background: #ECF7FF
+          text-decoration: underline
+          text-align left
+          font-size: 13px
+          margin: 0
+@media screen and (max-width: 720px)
+  .main-slider
+    .slider-wrapper-left
+      margin-top: 180px
+      float: none
+      min-height: 100%;
+      max-width: 100%
+      .slider-wrapper-left-content
+        padding: 10px
+        text-align: center
+        .title
+          font-size: 18px;
+          line-height: 1.556;
+          margin-bottom:15px
+        .description
+          font-size: 15px;
+          line-height: 1.5;
+          margin: 22px 0;
+          max-width:100%
+        .buttons
+          margin-bottom: 70px
+        button
+          text-align center
+          margin-bottom: 30px
+    .slider-wrapper-right
+      position: absolute
+      height: 180px
+      width 100%
+      left: 0
+      right: 0
+      top: 0
+      bottom: 0px
+      .first
+        position: absolute
+        height: 100%
+        float:left
+        width: 50%
+        background-position: 50% 20%;
+        border-radius: 0;
+        @media screen and (max-width: 321px)
+          background-image url("../images/girl--mobile.jpg")
+      .second
+        position: absolute
+        float: right
+        width: 50%
+        left 50%
+        height: 100%;
+        top 0
+        background-position: 50% 20%;
+        border-radius: 0;
+        @media screen and (max-width: 321px)
+          background-image url("../images/boy--mobile.jpg")
+  .dots
+    justify-content: center;
+    left: auto
+    width: 100%
+
+    li
+      flex-basis: 30px
+//advantages
+.advantages .wrapper
+  padding-bottom: 50px
+  border-bottom: 1px solid #efefef
+.slider-advantages
+  display: flex
+  @media screen and (max-width 610px)
+    flex-direction: column;
+  .slider-advantages-item
+    flex-basis: 50%
+    display: flex
+    @media screen and (max-width 610px)
+      padding:10px
+    .img-item
+      display: flex
+      justify-content: center
+      align-items: center
+      flex-basis: 50%
+      @media screen and (max-width 1024px)
+        flex-direction: column;
+        text-align: left;
+        align-items: flex-start;
+      @media screen and (max-width 610px)
+        text-align: center;
+        align-items:center;
+      figcaption
+        font-family: "Lato Semibold", Arial, sans-serif
+        color: #293137
+        padding:5%
+        @media screen and (max-width 1024px) and (min-width: 611px)
+          padding:24px 25px 24px  0
+
+.dots-advantages
+  bottom:0px
+//END Advantages
+//New Products
+.new-products
+  font-family: "Lato Regular", Arial, sans-serif
+  margin-top: 55px
+  margin-bottom:80px
+  .header
+    display: flex
+    justify-content: space-between
+    align-items: center;
+    .left
+      font-family: "Lato Semibold", Arial, sans-serif
+      font-size: 32px;
+      color: rgb(41, 49, 55);
+      line-height: 1.313;
+      @media screen  and (max-width: 1024px)
+        font-size: 30px
+      @media screen  and (max-width: 610px)
+        font-size: 20px
+
+    .right
+      font-family: "Lato Regular", Arial, sans-serif
+      color #0060af
+      @media screen  and (max-width: 610px)
+        position: relative
+        top:425px
+        left: -13px
+        //top 105%
+      @media screen  and (max-width: 420px)
+        top:350px
+  .multiple-items
+    margin-top: 40px
+    @media screen and (max-width: 610px)
+      margin-top: 10px
+    .product
+      margin: 10px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      @media screen and (max-width: 610px)
+        margin: 3px
+        box-shadow none
+    img
+      width: 100%
+      //height:140px
+    .content
+      padding-left: 15px
+      padding-right: 5px;
+    .title
+      font-size: 16px;
+      color: rgb(41, 49, 55);
+      line-height: 1.375
+      min-height: 78px;
+      @media screen and (max-width: 610px)
+        font-size: 14px
+        min-height: 66px;
+    .heart
+      position: relative;
+      border-radius: 50%;
+      background-color: rgb(255, 255, 255);
+      width: 30px;
+      height: 30px;
+      background-position: 50%;
+      top -12px
+      //left: 47%;
+      margin: 0 auto
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    svg
+      width: 16px
+      height: 16px
+      position: relative
+      left: 7px;
+      top: 7px;
+      fill #939596
+    svg:hover path
+      width: 18px
+      height: 18px
+      fill: red
+      //&:hover svg
+    .favorite svg  path
+      fill: red
+    .growth
+      font-size: 14px;
+      color: rgb(148, 150, 151);
+      line-height:  2.429;
+      @media screen and (max-width: 610px)
+        font-size: 13px
+    .price
+      padding-bottom: 15px
+      font-size: 18px;
+      font-family: "Lato Heavy";
+      color: rgb(0, 96, 175);
+      line-height: 1.333;
+      @media screen and (max-width: 610px)
+        font-size: 16px
+    .trade-price
+      padding: 15px 0px
+      padding-left: 15px
+      border-top 1px solid #efefef
+      border-bottom  1px solid #efefef
+      font-size: 14px;
+      color: rgb(148, 150, 151);
+      line-height: 1.429;
+      b
+        font-family: "Lato Semibold", Arial, sans-serif
+        font-size: 16px;
+        color: rgb(41, 49, 55);
+        line-height: 1.5;
+        @media screen and (max-width: 610px)
+          font-size: 14px;
+
+// Настройка слайдера для новых поступлений
+.slick-prev:before, .slick-next:before
+  color black
+  font-size: 40px;
+.slick-prev, .slick-next
+  top -70px;
+  width: 40px;
+  height: 40px;
+  @media screen and (max-width:610px)
+    top: 392px;
+    //top 105%
+  @media screen and (max-width:420px)
+    top 330px;
+.slick-prev
+  right: 52%;
+  left: auto
+  @media screen and (max-width:610px)
+    right 83%
+.slick-next
+  left: 52%;
+  @media screen and (max-width:610px)
+    left: 20%
+//END New Products
