@@ -1,3 +1,30 @@
+// Свои маркеры в яндекс карте
+<div id="map"></div>
+			<script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+			<script>
+				ymaps.ready(function() {
+					var map = new ymaps.Map('map', {
+    					center: [53.3870,83.7261],
+    					zoom: 15,
+    					controls: ['zoomControl']
+					}),
+				     //map.behaviors.disable(["scrollZoom"]);
+					mark1 = new ymaps.Placemark([53.3855,83.7373], {}, {
+						iconLayout: 'default#image',
+						iconImageHref: './img/pin1_icon.png',
+						iconImageSize: [54,58],
+						iconImageOffset: [-27,-58]
+					});
+					mark2 = new ymaps.Placemark([53.3880,83.7060], {}, {
+						iconLayout: 'default#image',
+						iconImageHref: './img/pin2_icon.png',
+						iconImageSize: [54,58],
+						iconImageOffset: [-27,-58]
+					});
+					map.geoObjects.add(mark1).add(mark2);
+				});
+			</script>
+
 //*Стилизация стрелки select*//
 .SP-select {
   background-color: rgb(246, 248, 249);
